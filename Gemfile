@@ -14,6 +14,10 @@ group :development do
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
   gem 'liquid', '~> 2.3.0'
+
+  # andxyz octopress plugins https://github.com/imathis/octopress/wiki/3rd-party-plugins
+  # I like github flavored markdown (gfm). redcarpet2 is kinda like that if you give it a bunch of settings
+  gem 'redcarpet', '~> 2.2.2'
 end
 
 gem 'sinatra', '~> 1.3.2'
