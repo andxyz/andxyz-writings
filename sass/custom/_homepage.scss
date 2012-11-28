@@ -1,0 +1,93 @@
+// bio 
+#content article.bio {
+  padding: 0;
+  margin: 0;
+}
+
+article div.about-author {
+  width: 600px; 
+  margin: 0 auto;
+
+  ul {
+    list-style: none; }
+
+  h1 {
+    
+    margin: 0 18px 0.2em;
+    font-size: 4em; }
+
+  img.author {
+    border:none;
+    float:left;
+    vertical-align: text-top;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    @include border-radius(135px);
+    @include box-shadow(0 0 10px 0px #888); }
+
+  img.li {
+    vertical-align: text-bottom;
+    margin-right:   10px; }
+
+  li:first-child {
+    padding-top: 0; }
+
+  li {
+    padding-top: 20px; } }
+
+// footer & rss 
+.footer-copyright {
+  text-align: center; }
+
+#rss-button {
+  position: absolute;
+  right: 0px;
+  padding-right: 40px; }
+
+// archive
+#blog-archives {
+  time {
+    font-family: "Droid Sans Mono", "Courier New", sans-serif;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    top: 1.2em;
+    left: auto;
+    right: -2em; }
+
+  .year {
+    display: inline-block;
+    position: relative;
+    left: -7em; }
+
+  article {
+    margin-left: 5em;
+    margin-right: 5em; } }
+
+// page
+#content article.hentry h1.entry-title {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 4em; }
+
+article header .author-link {
+  font-weight: lighter !important;
+  font-size: 1em;
+  text-align: center;
+  margin: 0; }
+
+article header .meta {
+  font-size: .8em;
+  text-transform: uppercase;
+  text-align: center; 
+  margin: 0; }
+
+article.hentry >  h1 {
+  font-size:28px;
+}
+
+article.hentry > h3 {
+  font-size:15px;
+}
+
+
+
