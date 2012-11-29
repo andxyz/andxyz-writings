@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: http://feeds.feedburner.com/andxyz-stevens
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -33,10 +33,11 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: writings/categories
+
 #markdown: rdiscount
 markdown: redcarpet2
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "lax_spacing"]
 pygments: true # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
@@ -97,7 +98,7 @@ disqus_short_name: andxyz
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: 
+google_analytics_tracking_id: UA-3195072-1
 
 # Facebook Like
 facebook_like: false

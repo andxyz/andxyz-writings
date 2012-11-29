@@ -2,13 +2,12 @@
 @include global-reset;
 @include reset-html5;
 
-@import "custom/colors";
-@import "custom/fonts";
-@import "custom/layout";
+@import "custom/andxyz-colors";
+@import "custom/andxyz-fonts";
+@import "custom/andxyz-layout";
 @import "base";
 @import "partials";
 
-@import "custom/theme-overrides";
-@import "custom/homepage";
-@import "custom/icon-font";
-@import "custom/search";
+@import "custom/andxyz-theme-overrides";
+@import "custom/andxyz-icon-font";
+@import "custom/andxyz-search";

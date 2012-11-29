@@ -1,0 +1,22 @@
+---
+layout: post
+title: "The-Setup"
+date: 2012-11-29 08:54
+comments: true
+---
+
+## Coding & Computers
+ - [github/andxyz/the-setup][setup-github]
+
+## Web-browsers
+- [Chrome Extenstions][my-chrome]
+- [my-firefox]
+
+## Pictures
+- [Flickr setup pictures][flickr]
+
+
+[my-chrome]: /chrome-extensions/
+[my-firefox]: /firefox-extensions/
+[setup-github]: http://github.com/andxyz/the-setup#readme
+[flickr]: http://www.flickr.com/photos/andxyz/8230031692/in/set-72157632131411262/

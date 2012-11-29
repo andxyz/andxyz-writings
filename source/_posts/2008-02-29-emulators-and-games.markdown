@@ -5,8 +5,6 @@ layout: post
 slug: emulators-and-games
 title: Emulators and Games
 wordpress_id: 8
-categories:
-- gaming
 ---
 
 I recently spoke to a friend about playing FF7 and not getting into it. Even though I had installed the emulator on my hacked xbox and ported my save game over from my hacked ps2. So I could play on the TV with a controller. While that was fun, the game itself wasn't. all 3D final fantasy are garbage. I do play the old FFs (1-6 translations are great) on emulators on my computer sometimes (NES and SNES). It was fun back in high-school. However recently I find it hard to enjoy games. Perhaps I've played too much with my brothers and I need to get out there and play crazy addictive online games. I doubt it though. Today however my brother discovered my store of old comp games. I was like hey, remember rags to riches?[![rags2riches](http://andxyz.com/blog/myimages/rags_to_riches_02.gif)](http://andxyz.com/blog/myimages/rags_to_riches_02.gif) I have that. And then we cracked up cause this game is hilariously hard, and yet fun to play because of it.

@@ -1,3 +1,7 @@
+html {
+  background: $page-bg image-url('noise.png') top left;
+}
+
 // bio 
 #content article.bio {
   padding: 0;
@@ -12,9 +16,8 @@ article div.about-author {
     list-style: none; }
 
   h1 {
-    
     margin: 0 18px 0.2em;
-    font-size: 4em; }
+    font-size: 62px; }
 
   img.author {
     border:none;
@@ -35,24 +38,32 @@ article div.about-author {
   li {
     padding-top: 20px; } }
 
-// footer & rss 
-.footer-copyright {
-  text-align: center; }
+// header
+body > header {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
-#rss-button {
-  position: absolute;
-  right: 0px;
-  padding-right: 40px; }
+// footer & rss 
+footer .footer-copyright {
+  text-align: center;
+  line-height: 57px; }
+
+footer .rss-icon {
+  margin-left: 8px;
+  vertical-align: text-bottom; }
+
+footer #rss-button {
+  float:right; }
 
 // archive
-#blog-archives {
+body #content #blog-archives {
   time {
     font-family: "Droid Sans Mono", "Courier New", sans-serif;
     line-height: 1.2em;
     font-size: 1.2em;
+    right: -2em;
     top: 1.2em;
-    left: auto;
-    right: -2em; }
+    position: absolute; }
 
   .year {
     display: inline-block;
@@ -60,14 +71,19 @@ article div.about-author {
     left: -7em; }
 
   article {
-    margin-left: 5em;
-    margin-right: 5em; } }
+    padding-left:  10px;
+    padding-right: 10px;
+    margin-left:  55px;
+    margin-right: 55px; } }
 
 // page
-#content article.hentry h1.entry-title {
+#content article h1.entry-title {
   text-align: center;
   font-weight: lighter;
-  font-size: 4em; }
+  font-size: 62px; }
+
+article header {
+  padding-top: 0; }
 
 article header .author-link {
   font-weight: lighter !important;
@@ -76,18 +92,19 @@ article header .author-link {
   margin: 0; }
 
 article header .meta {
-  font-size: .8em;
+  font-size: 0.8em;
+  color: #444;
   text-transform: uppercase;
   text-align: center; 
   margin: 0; }
 
 article.hentry >  h1 {
-  font-size:28px;
-}
+  font-size:28px; }
 
 article.hentry > h3 {
-  font-size:15px;
-}
+  font-size:15px; }
+
+
 
 
 
