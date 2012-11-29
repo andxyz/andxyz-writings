@@ -4,14 +4,14 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "deployer@octo.andxyz.com"
+ssh_user       = "deployer@octopress.andxyz.com"
 ssh_port       = "22"
-document_root  = "~/code/andxyz-octo"
+document_root  = "/home/wwwadmin/website/"
 rsync_delete   = false
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "gh-pages"
+deploy_branch  = "master"
 
 ## -- Misc Configs -- ##
 

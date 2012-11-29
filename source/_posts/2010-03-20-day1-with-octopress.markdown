@@ -3,8 +3,6 @@ comments: true
 date: 2007-11-26 16:13:23
 layout: post
 title: "Day 1 with Octopress"
-categories:
-- web-design, writing-meta
 ---
 
 # Step 1 as a newbie to ruby and rake. 
