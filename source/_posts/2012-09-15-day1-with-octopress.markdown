@@ -1,6 +1,6 @@
 ---
 comments: true
-date: 2007-11-26 16:13:23
+date: 2012-09-15 19:22:05
 layout: post
 title: "Day 1 with Octopress"
 ---

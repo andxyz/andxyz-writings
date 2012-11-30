@@ -6,17 +6,18 @@ comments: true
 ---
 
 ## Coding & Computers
- - [github/andxyz/the-setup][setup-github]
+ - [github/andxyz/the-setup][mysetup-github]
 
 ## Web-browsers
 - [Chrome Extenstions][my-chrome]
-- [my-firefox]
+- [Firefox Extensions][my-firefox]
 
 ## Pictures
-- [Flickr setup pictures][flickr]
+- [Working desks pictures][mysetup-flickr]
+<object width="600" height="450"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fandxyz%2Fsets%2F72157632131411262%2Fshow%2F&page_show_back_url=%2Fphotos%2Fandxyz%2Fsets%2F72157632131411262%2F&set_id=72157632131411262&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=122138"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=122138" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fandxyz%2Fsets%2F72157632131411262%2Fshow%2F&page_show_back_url=%2Fphotos%2Fandxyz%2Fsets%2F72157632131411262%2F&set_id=72157632131411262&jump_to=" width="600" height="450"></embed></object>
 
 
-[my-chrome]: /chrome-extensions/
-[my-firefox]: /firefox-extensions/
-[setup-github]: http://github.com/andxyz/the-setup#readme
-[flickr]: http://www.flickr.com/photos/andxyz/8230031692/in/set-72157632131411262/
+[my-chrome]: /pages/chrome-extensions/
+[my-firefox]: /pages/firefox-extensions/
+[mysetup-github]: http://github.com/andxyz/the-setup#readme
+[mysetup-flickr]: http://www.flickr.com/photos/andxyz/8230031692/in/set-72157632131411262/
