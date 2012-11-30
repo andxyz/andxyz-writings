@@ -1,6 +1,6 @@
 ---
 comments: true
-date: 2009-11-26 18:13:23
+date: 2011-01-01 22:14:42
 layout: post
 title: "Favorites of Company Culture"
 ---
