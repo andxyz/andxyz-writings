@@ -1,3 +1,4 @@
+/bin
 .bin
 .bundle
 .DS_Store
@@ -5,6 +6,7 @@
 .gist-cache
 .pygments-cache
 _deploy
+_cache
 public
 sass.old
 source.old

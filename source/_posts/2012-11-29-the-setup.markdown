@@ -6,11 +6,14 @@ comments: true
 ---
 
 ## Coding & Computers
- - [github/andxyz/the-setup][mysetup-github]
+ - [github/andxyz/the-setup][mysetup-github] (work-in-progress)
 
 ## Web-browsers
-- [Chrome Extenstions][my-chrome]
-- [Firefox Extensions][my-firefox]
+- [Chrome Extenstions][my-chrome] (complete)
+- [Firefox Extensions][my-firefox] (complete)
+- Safari Extenstions (I just use the inspector)
+- IE Extensions (<img class="emoji plain" src="/images/custom/trollface.png" width="24" height="24">)
+- Opera, Konqueror, Linx ... etcetera
 
 ## Pictures
 - [Working desks pictures][mysetup-flickr]
