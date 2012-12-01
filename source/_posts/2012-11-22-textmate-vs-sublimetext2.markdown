@@ -1,28 +1,62 @@
 ---
 layout: post
-title: "Textmate vs SublimeText2"
+title: "Editor wars"
 date: 2012-11-22 05:45
 comments: true
 categories: 
 ---
 
-Or should I say al3x, drnix, rbates VS mhartl & [mhartl-video][sb2-hartl-video], [someguy][sb2-someguy]
+# Textmate vs SublimeText2:
+Or should I say al3x, drnix, rbates VS wbond, mhartl, 
 
-  [Al3x][tm-alex]
-  [drnic][tm-drnic]
-  [rbates][tm-rbates]
+Textmate:
+- [dhh][tm-dhh]
+- [Al3x][tm-alex]
+- [drnic-1][tm-drnic1], [drnic-2][tm-drnic2]
+- [rbates][tm-rbates]
 
-  [mhartl][sb2-hartl]
+Sublimetext2:
+- [mhartl][sb2-hartl]
+- [mhartl-video][sb2-hartl-video]
 
-  [tm-alex]: http://al3x.net/2008/12/03/how-i-use-textmate.html
-  [tm-drnic]: https://github.com/drnic
-  [sb2-hartl-video]: http://www.youtube.com/watch?v=05x1Jk4rT1A
-  [sb2-hartl]: https://github.com/mhartl/rails_tutorial_sublime_text
-  [sb2-someguy]: http://www.nickdesteffen.com/blog/switching-to-sublime-text-2
+[tm-dhh]: http://david.heinemeierhansson.com/arc/000270.html
+[tm-alex]: http://al3x.net/2008/12/03/how-i-use-textmate.html
+[tm-drnic1]: http://drnicwilliams.com/category/textmate/
+[tm-drnic2]: https://github.com/drnic
+[tm-rbates]: http://railscasts.com/about
+[sb2-hartl-video]: http://www.youtube.com/watch?v=05x1Jk4rT1A
+[sb2-hartl]: https://github.com/mhartl/rails_tutorial_sublime_text
+[sb2-someguy]: http://www.nickdesteffen.com/blog/switching-to-sublime-text-2
+
+# Vim vs Emacs:
+Or should I say tpope, tomayko, tenderlove VS defunkt, 
+
+Vim:
+- tpope pathogen, fugitive, [ctags][v-tpope-ctags], and more at [github.com/tpope][v-tpope-github]
+- tenderlove [dot-vim][v-tenderlove-dotfiles], watch [tenderlove in action][v-tenderlove-peepcode]
+
+Emacs:
+- Chris Wanstrath [magit][e-chris-magit], [textmate-mode][e-chris-textmate], [coffee-mode][e-chris-coffee]
+
+[v-tpope-github]: https://github.com/tpope
+[v-tpope-ctags]: http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html
+[v-tenderlove-dotfiles]: https://github.com/tenderlove/dot_vim
+[v-tenderlove-peepcode]: https://peepcode.com/products/play-by-play-tenderlove-ruby-on-rails
 
 
-Runner up links for other settings, to mull over:
+[e-chris-textmate]: https://github.com/defunkt/textmate.el
+[e-chris-coffee]: https://github.com/defunkt/coffee-mode
+[e-chris-magit]: https://github.com/defunkt/magit
 
-- [tpope ctags][r-tpope]
 
-  [r-tpope]: http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html
+# What an editor really needs
+
+some sort of manageable plugin system and a plugin language
+
+Textmate: 
+
+Sublimetext2: package control
+
+Vim: pathogen
+
+Emacs: 

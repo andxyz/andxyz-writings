@@ -8,6 +8,10 @@ html {
   margin: 0;
 }
 
+.bio-overview {
+  padding-left: 300px;
+}
+
 article div.about-author {
   width: 600px; 
   margin: 0 auto;
@@ -81,6 +85,17 @@ body #content #blog-archives {
   text-align: center;
   font-weight: lighter;
   font-size: 62px; }
+
+article img.plain {
+  border: 0;
+  @include border-radius(0,0);
+}
+
+img.emoji {
+  width:24px;
+  height:24px;
+  vertical-align: text-bottom;
+}
 
 article header {
   padding-top: 0; }
