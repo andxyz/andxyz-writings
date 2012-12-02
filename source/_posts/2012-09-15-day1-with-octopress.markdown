@@ -7,11 +7,11 @@ title: "Day 1 with Octopress"
 
 [![octopress logo 2012](/images/posts/octopress-logo.png)](/images/posts/octopress-logo.png) 
 
-Octopress is a framework for blogging. (like wordpress, it uses git and ruby to produce a static site)
+Octopress is a framework for blogging. (Octopress uses git and ruby to produce a static site)
 
-## Things to know if you are a newbie to ruby and rake. 
+## Things to know if you are a newbie to ruby and rake.
 
-Ruby is the language, `rake` is like `make` they start everything with <code>r</code> that is a ruby-esque version of a unix tool. Same old, same old, really.
+Ruby is the language, `rake` is like `make`. Tools start with an <code>r</code> when it is ruby-esque version of a unix tool. Same old, same old, really.
 
 Figuring out how to do some simple things was easy. It's all listed in the [README.markdown][readme] and the [Rakefile][rakefile]. Good comments, seems pretty clear.
 
@@ -24,11 +24,14 @@ The following inspired me to take the plunge into this beefed up jekyll world of
 - henrik http://henrik.nyh.se
   
 ## Custom Tweaks
+
 - I tweaked the theme scss, and layout files heavily
 - This [redcarpet2 markdown plugin][plugin] is awesome, get's me closer to [github flavored markdown][gfm]
 - You can read up on the [Liquid templates engine][liquid], [Jekyll][jekyll], and [Octopress][octopress] if you want
 
-## Why Octopress and not just Jekyll (the framework on which Octopress is based)
+## Why Octopress and not just Jekyll 
+
+(Jekyll is the framework on which Octopress is based)
 
 [Tom Preston-Werner][mojombo], the creator of Jekyll said they use Jekyll at Github. 
 And so the future of the code-base is link to what github needs. Octopress was created by [Brandon Mathis][imathis] (a designer and coder) who is intent on pushing the Jekyll framework forward for the sake of fellow bloggers. He calls them <code>Hackers</code> because you need to use git and ruby to do what you want. Maybe one day Octopress can be like Gollum, and abstract the git part away. For now it seems it's <code>Hackers</code> only.
