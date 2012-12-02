@@ -13,7 +13,7 @@ comments: true
 - [Firefox Extensions][my-firefox] (complete)
 - Safari Extenstions (I just use the inspector)
 - IE Extensions (<img class="emoji plain" src="/images/custom/trollface.png" width="24" height="24">)
-- Opera, Konqueror, Linx ... etcetera
+- Opera, Konqueror, Linx ... etcetera (I don't use these...)
 
 ## Pictures
 - [Working desks pictures][mysetup-flickr]
