@@ -46,3 +46,25 @@ class Jekyll::MarkdownConverter
     markdown.render(content)
   end
 end
+
+# A liquid::template tag so I could include my summary.markdown 
+# with redcarpet2 (including the options I like), it was _not_
+# working as planned, but I'll leave it here for visibilities sake
+#
+# {% capture summary_content %}
+# {% include summary.markdown %}
+# {% endcapture %}
+# {{ summary_content | markdownplease }}
+
+# class Markdownplease < Liquid::Tag
+#   def initialize(tag_name, content, tokens)
+#      super
+#      Hash[ *@config['redcarpet']['extensions'].map {|e| [e.to_sym, true] }.flatten ]
+#      @redmarkdown ||= Redcarpet::Markdown.new(Redcarpet2Markdown.new(redextensions), redextensions)
+#      @content = content
+#   end
+
+#   def render(context)
+#     @redmarkdown.to_html(@content).to_s
+#   end
+# end

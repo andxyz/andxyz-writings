@@ -5,10 +5,7 @@ sidebar: false
 
 <article class="bio" role="bio">
   <div class="about-author">
-    {% capture summary_content %}
-    {% include summary.markdown %}
-    {% endcapture %}
-    {{ summary_content | markdownify }}
+    {% include summary.html %}
   </div>
 </article>
 
