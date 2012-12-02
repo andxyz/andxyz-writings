@@ -13,6 +13,8 @@ I read some articles from the [long now foundation](http://www.longnow.org), the
 
 Peter had to use photoshop, longnow stunk, I want to see google offer one as a service, that feels like their stock exchange thing. I also found another one, it had the bubble thing and looked nice. but it didn't have the google stock exchange overview thing.
 
+[![google-stock-timeline](/images/blog/google-stock-timeline.png)](http://andxyz.com/images/blog/google-stock-timeline.png)
+
 Argh. So dear internet, please... one day, recommend a good one. Here is the required reading before recommending a timeline program:
 
 - [http://simile.mit.edu/timeline/][simile]
@@ -41,7 +43,7 @@ Most importantly is a poster by IBM called ["Men of Modern Mathematics"](http://
   [gfinance]: http://finance.google.com/finance
   [timepedia]: http://timepedia.org
   [beedocs]: http://www.beedocuments.com/
-  [bees-list]: http://www.beedocuments.com/blog/2006/12/other-timeline-software_05.html
+  [bees-list]: http://blog.beedocs.com/2006/12/other-timeline-software_05.html
   [hyperhistory]: http://www.hyperhistory.com/
   [ibm-math-ipad]: http://www.youtube.com/watch?v=txHp-Z3bG3Q 
 
