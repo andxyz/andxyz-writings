@@ -5,11 +5,15 @@ layout: post
 title: "Day 1 with Octopress"
 ---
 
-# Step 1 as a newbie to ruby and rake. 
+# Step 1
 
-(ruby is the language, `rake` is like `make` they start everything that's a ruby version of a unix tool with *r*. it's the same old same old really)
+## if you are a newbie to ruby and rake. 
 
-Figuring out how to do some simple things was easy. It's all listed in the <code>README.markdown</code> and the <code>Rakefile</code> file. Good comments, seems pretty clear, would appreciate an example on how to make a post. The syntax is a little confusing. 
+ruby is the language, `rake` is like `make` they start everything <code>r</code> that's a ruby version of a unix tool. it's the same old same old really.
 
-<code>rake post "my first post"</code> didn't do as expected. the syntax in the rake file was...
+Figuring out how to do some simple things was easy. It's all listed in the <code>README.markdown</code> and the <code>Rakefile</code>. Good comments, seems pretty clear, would appreciate an example on how to make a post. The syntax is a little confusing, with the quoting headaches <code>rake new_post['my post title']</code>
+
+People I like who inspired me to take the plunge:
+- alblue http://alblue.bandlem.com/2012/02/disadvantages-of-octopress.html
+- henrik http://henrik.nyh.se
 
