@@ -13,7 +13,7 @@ I read some articles from the [long now foundation](http://www.longnow.org), the
 
 Peter had to use photoshop, longnow stunk, I want to see google offer one as a service, that feels like their stock exchange thing. I also found another one, it had the bubble thing and looked nice. but it didn't have the google stock exchange overview thing.
 
-[![google-stock-timeline](/images/blog/google-stock-timeline.png)](http://andxyz.com/images/blog/google-stock-timeline.png)
+[![google-stock-timeline](/images/posts/google-stock-timeline.png)](http://andxyz.com/images/posts/google-stock-timeline.png)
 
 Argh. So dear internet, please... one day, recommend a good one. Here is the required reading before recommending a timeline program:
 

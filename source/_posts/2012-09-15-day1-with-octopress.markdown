@@ -5,13 +5,17 @@ layout: post
 title: "Day 1 with Octopress"
 ---
 
-## Step 1: If you are a newbie to ruby and rake. 
+[![octopress logo 2012](/images/posts/octopress-logo.png)](/images/posts/octopress-logo.png) 
+
+Octopress is a framework for blogging. (like wordpress, it uses git and ruby to produce a static site)
+
+## Things to know if you are a newbie to ruby and rake. 
 
 Ruby is the language, `rake` is like `make` they start everything with <code>r</code> that is a ruby-esque version of a unix tool. Same old, same old, really.
 
 Figuring out how to do some simple things was easy. It's all listed in the [README.markdown][readme] and the [Rakefile][rakefile]. Good comments, seems pretty clear.
 
-The syntax for a new post <code>rake new_post['my post title']</code>
+The syntax for a new post <code>rake new_post['Day 1 with Octopress']</code>
 
 ## People I like 
 
@@ -19,10 +23,15 @@ The following inspired me to take the plunge into this beefed up jekyll world of
 - alblue http://alblue.bandlem.com/2012/02/disadvantages-of-octopress.html
 - henrik http://henrik.nyh.se
   
-## Tweaks
+## Custom Tweaks
 - I tweaked the theme scss, and layout files heavily
 - This [redcarpet2 markdown plugin][plugin] is awesome, get's me closer to [github flavored markdown][gfm]
 - You can read up on the [Liquid templates engine][liquid], [Jekyll][jekyll], and [Octopress][octopress] if you want
+
+## Why Octopress and not just Jekyll (the framework on which Octopress is based)
+
+[Tom Preston-Werner][mojombo], the creator of Jekyll said they use Jekyll at Github. 
+And so the future of the code-base is link to what github needs. Octopress was created by [Brandon Mathis][imathis] (a designer and coder) who is intent on pushing the Jekyll framework forward for the sake of fellow bloggers. He calls them <code>Hackers</code> because you need to use git and ruby to do what you want. Maybe one day Octopress can be like Gollum, and abstract the git part away. For now it seems it's <code>Hackers</code> only.
 
 [readme]: https://github.com/imathis/octopress/blob/master/README.markdown
 [rakefile]: https://github.com/imathis/octopress/blob/master/Rakefile
@@ -31,4 +40,5 @@ The following inspired me to take the plunge into this beefed up jekyll world of
 [liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers
 [jekyll]: https://github.com/mojombo/jekyll#readme
 [octopress]: https://github.com/imathis/octopress#readme
-
+[mojombo]: http://tom.preston-werner.com/
+[imathis]: http://brandonmathis.com/

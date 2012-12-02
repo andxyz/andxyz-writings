@@ -17,6 +17,7 @@ group :development do
 
   # andxyz octopress plugins https://github.com/imathis/octopress/wiki/3rd-party-plugins
   # I like github flavored markdown (gfm). redcarpet2 is kinda like that if you give it a bunch of settings
+  # https://github.com/nono/Jekyll-plugins
   gem 'redcarpet', '~> 2.2.2'
 end
 
