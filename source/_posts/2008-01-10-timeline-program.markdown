@@ -7,7 +7,7 @@ title: Timeline program
 wordpress_id: 5
 ---
 
-A while ago my brother (Peter) asked if I knew a program that could do a nice timeline for him. Much like google's stock thing where you can drag the window size to "zoom in the mainview" and "bubbles pop up". I don't,  didn't and may never know a good one. He made his in photoshop. It looked awesome. was extremely customized, but it wasn't so interactive or on the web.
+A while ago my brother ([Peter][thepeterstevens]) asked if I knew a program that could do a nice timeline for him. Much like google's stock thing where you can drag the window size to "zoom in the mainview" and "bubbles pop up". I don't,  didn't and may never know a good one. He made his in photoshop. It looked awesome. was extremely customized, but it wasn't so interactive or on the web.
 
 I read some articles from the [long now foundation](http://www.longnow.org), they provided a timeline program in python but _mylord_ it was compiling hell on windows. I had to do crazy cygwin install stuff and edit their code, upon reading compile error line numbers. And in the end it looked like shité. bullshavik. soooo far from web 2.0 it was sad. Well at least they write their dates with a zero out front as in 02008. 'Cause that's long term thinking. (doesn't matter if what you make is terrible)
 
@@ -33,8 +33,9 @@ Considering that I love well done maps that provide both an overview and eleganc
 
 Most importantly is a poster by IBM called ["Men of Modern Mathematics"](http://en.wikipedia.org/wiki/Mathematica:_A_World_of_Numbers..._and_Beyond#The_1966_.22Men_of_Modern_Mathematics.22_Poster) which I've always wanted (oh and they know they left out women and tried to correct that I hear but I've never seen that one).
 
-**Update 2012**: see also the [ipad app][mm-ipad] 
+**Update 2012**: see also the [IBM Mathematicians ipad app][ibm-math-ipad] 
 
+  [thepeterstevens]: http://thepeterstevens.com
   [simile]: http://simile.mit.edu/timeline/
   [longview]: http://www.longnow.org/about/longview.php
   [gfinance]: http://finance.google.com/finance
@@ -42,4 +43,6 @@ Most importantly is a poster by IBM called ["Men of Modern Mathematics"](http://
   [beedocs]: http://www.beedocuments.com/
   [bees-list]: http://www.beedocuments.com/blog/2006/12/other-timeline-software_05.html
   [hyperhistory]: http://www.hyperhistory.com/
-  [mm-ipad]: http://www.youtube.com/watch?v=txHp-Z3bG3Q 
+  [ibm-math-ipad]: http://www.youtube.com/watch?v=txHp-Z3bG3Q 
+
+  

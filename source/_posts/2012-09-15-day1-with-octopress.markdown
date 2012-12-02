@@ -31,3 +31,4 @@ The following inspired me to take the plunge into this beefed up jekyll world of
 [liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers
 [jekyll]: https://github.com/mojombo/jekyll#readme
 [octopress]: https://github.com/imathis/octopress#readme
+
