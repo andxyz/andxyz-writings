@@ -8,20 +8,16 @@ html {
   margin: 0;
 }
 
-.bio-overview {
-  padding-left: 300px;
-
-  ul {
-    margin-left: 0em;
-  }
-}
-
 article div.about-author {
   width: 600px; 
   margin: 0 auto;
 
-  ul {
-    list-style: none; }
+  .bio-overview {
+    padding-left: 300px;
+
+    ul {
+      margin-left: 0em;
+      list-style: none; } }
 
   h1 {
     margin: 0 18px 0.2em;

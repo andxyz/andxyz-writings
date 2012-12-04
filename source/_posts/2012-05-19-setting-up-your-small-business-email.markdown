@@ -18,8 +18,8 @@ Like this www.google.com/a/examplecompany.com
 2. Verify your domain (in the <code>setup</code> area after you sign in)
 [![setup google-apps-step1](/images/posts/google-apps-step2.png)](http://andxyz.com/images/posts/google-apps-step1.png)
 
-3. Then edit your dns mail records with your <code>DNS Manager</code> for you web domain. (you might need you webmaster to help you with this)
-[![setup google-apps-step3](/images/posts/google-apps-step1.png)](http://andxyz.com/images/posts/google-apps-step1.png)
+3. Then edit your dns mail records with your <code>DNS Manager</code> for your web domain. (you might need you webmaster to help you with this)
+[![setup google-apps-step3](/images/posts/google-apps-step3.png)](http://andxyz.com/images/posts/google-apps-step1.png)
 
 4. Now you can setup ms-outlook or apple-mail:
 -- Using IMAP with your email client (ex: outlook) http://support.google.com/mail/bin/answer.py?hl=en&answer=75726
