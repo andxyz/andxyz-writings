@@ -51,20 +51,31 @@ end
 # with redcarpet2 (including the options I like), it was _not_
 # working as planned, but I'll leave it here for visibilities sake
 #
-# {% capture summary_content %}
-# {% include summary.markdown %}
-# {% endcapture %}
-# {{ summary_content | markdownplease }}
-
+# <div class="about-author">
+#   {% capture summary_content %}
+#   {% render_partial partials/summary.markdown %}
+#   {% endcapture %}
+#   {{ summary_content | markdownplease }}
+# </div>
 # class Markdownplease < Liquid::Tag
-#   def initialize(tag_name, content, tokens)
-#      super
-#      Hash[ *@config['redcarpet']['extensions'].map {|e| [e.to_sym, true] }.flatten ]
-#      @redmarkdown ||= Redcarpet::Markdown.new(Redcarpet2Markdown.new(redextensions), redextensions)
-#      @content = content
+#
+#   def extensions
+#     Hash[ *@config['redcarpet']['extensions'].map {|e| [e.to_sym, true] }.flatten ]
 #   end
-
+#
+#   def markdown
+#     @markdown ||= Redcarpet::Markdown.new(Redcarpet2Markdown.new(extensions), extensions)
+#   end
+#
+#   def initialize(tag_name, text, tokens)
+#     super
+#     @text = text
+#   end
+#
 #   def render(context)
-#     @redmarkdown.to_html(@content).to_s
+#     return super unless @config['markdown'] == 'redcarpet2'
+#     markdown.render(@text).to_s
 #   end
 # end
+#
+# Liquid::Template.register_tag('markdownplease', Markdownplease)
