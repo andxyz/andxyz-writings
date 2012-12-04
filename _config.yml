@@ -34,10 +34,12 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: writings/categories
 
-#markdown: rdiscount
+# markdown: rdiscount
+# Using redcarpet2 plugin so I can get "github flavored markdown"
+# see https://github.com/vmg/redcarpet#readme
 markdown: redcarpet2
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "lax_spacing"]
+  extensions: ["hard_wrap", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "lax_spacing"]
 pygments: true # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
