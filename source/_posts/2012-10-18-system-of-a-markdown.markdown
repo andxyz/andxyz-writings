@@ -72,14 +72,18 @@ the final <code>Markdown.sublime-build</code> (OSX)
 
 ## Getting Github Flavored Markdown(gfm) in Ruby
 
-- [Redcarpet2](https://github.com/vmg/redcarpet) is pretty close
+- [Redcarpet2](https://github.com/vmg/redcarpet), I use it for my octopress blog [andxyz.com](http://andxyz.com)
 ```yml
-markdown: redcarpet2
+# Andxyz uses the redcarpet2 plugin so we can have "github flavored markdown"
+# https://github.com/nono/Jekyll-plugins/blob/master/redcarpet2_markdown.rb
+# required reading http://github.github.com/github-flavored-markdown/
+# for redcarpet2 options see https://github.com/vmg/redcarpet#readme
+markdown: redcarpet2 # markdown: rdiscount
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "lax_spacing"]
+  extensions: ["hard_wrap", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "lax_spacing"]
 ```
 
-- [Github says they use this](http://github.github.com/github-flavored-markdown/) I don't really believe them
+- [Github says they use this](http://github.github.com/github-flavored-markdown/) I don't really believe them, I think they are in c code now, they convert so much markdown it became a pain-point.
 ```ruby
 require 'digest/md5'
 

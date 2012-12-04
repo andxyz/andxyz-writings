@@ -37,9 +37,10 @@ With every personal website I see, the <code>about</code> button is always a cli
   **remote-origin** : my linode gitolite
   **remote-imathis** : github.com/imathis/octopress.git
 
-### Things to checkout
+### Things todo/checkout
 
-- https://github.com/ftlabs/fastclick
-- 
+- https://github.com/ftlabs/fastclick play with ipad links
+- http://octopress.org/docs/plugins/include-code/ change code blocks into code downloads 
+
 
 
