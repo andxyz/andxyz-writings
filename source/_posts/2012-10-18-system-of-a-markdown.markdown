@@ -9,32 +9,52 @@ title: "System of a Markdown"
 
 - taking notes            (simplenoteapp.com + nvalt)
 - writing online          (like this website)
-- html email with imgs    (helped when my mother was considering buying a sink)
+- html email with imgs    (helped when my mother was [considering buying a sink, example email](/images/posts/system-of-a-markdown-new-kitchen.markdown.html))
 
-## Using Sublime Text 2 for Multimarkdown 
+So markdown has appeal, but how to set it up on OSX? [setup-1](#setup1), [setup-2](#setup2), [setup-3](#setup3)
 
-#### Requirements
+<a id="setup1"></a>
+### 1. SublimeText 2(ST2) plugin
+
+##### Requirements
 
 0. the [sublime text 2](sublimetext.com/2) text-editor
-1. the multi-markdown software (an executable named either mmd.exe or mmd)
+1. install the [package control plugin](http://wbond.net/sublime_packages/package_control) into sublimetext2 
+2. use package control to install the [markdown-preview plugin](https://github.com/revolunet/sublimetext-markdown-preview)
+
+Note: With these plugins (if you are a coder) you can use GitHub's free markdown rendering API. 
+POST to http://developer.github.com/v3/markdown/ 
+Thus allowing you to see your README.markdown (with emoji) before you commit it, etc.
+
+Just Make sure to set the parser to github.
+[![ST2 preview markdown plugin screenshot1](/images/posts/system-of-a-markdown-1.png)](/images/posts/system-of-a-markdown-1.png)
+[![ST2 preview markdown plugin screenshot1](/images/posts/system-of-a-markdown-2.png)](/images/posts/system-of-a-markdown-2.png)
+
+<a id="setup2"></a>
+### 2. The Old ST2 Build System: **My old way** from sublimetext2 (still good for emails and such)
+
+##### Requirements
+
+0. the [sublime text 2](sublimetext.com/2) text-editor
+1. install the multi-markdown software (an executable named either mmd.exe or mmd)
 2. the software on your PATH environment variable
-3. the sublimetext2 build system
-
-mmd.exe on your PATH for Windows7  
+<pre>
+mmd.exe on your PATH for Windows7
 mmd on your PATH for OSX
+</pre>
+3. a sublimetext2 build system
 
-#### The Software: 
 
-Installing the software used to turn markdown source file in the output.html
+#### Install The Multi-markdown Software: 
 
-Windows: https://github.com/fletcher/peg-multimarkdown/downloads
-OSX: I used <code>brew install mmd</code> see [homebrew](https://github.com/mxcl/homebrew#Readme)
+Installing the software for turning a <code>input.markdown</code> source file into <code>output.html</code>
 
-#### The Build System: 
+**Windows**: https://github.com/fletcher/peg-multimarkdown/downloads
+**OSX**: I used <code>brew install mmd</code> see [homebrew](https://github.com/mxcl/homebrew#Readme)
 
 The Sublime Text 2 Build System
 
-Save the following <code>Markdown.sublime-build</code> file to your <code>User folder</code> in <code>Packages</code>.  
+Save the following <code>Markdown.sublime-build</code> file to your <code>User</code> folder in <code>Packages</code>. 
 The folder Windows 7 system this is:
 
 ```ruby
@@ -50,29 +70,29 @@ On OSX:
 Open a Mardown file (with *.md file extension) and hit F7.
 It will make the <code>filename.html</code> and show the file in the browser
 
-the final <code>Markdown.sublime-build</code> (windows):
+<code>Markdown.sublime-build</code> (Windows7):
 
-{% codeblock Markdown.sublime-build lang:json %}
+```json
 {
   "shell": "true",
-	"cmd": ["pandoc.exe", "--to=html", "--output=$file.html", "$file", "&", "C:\Users\Username\AppData\Local\Google\Chrome\Application\chrome.exe","$file.html"],
-	"selector": "source.md"
+  "cmd": ["pandoc.exe", "--to=html", "--output=$file.html", "$file", "&", "C:\Users\USERNAME\AppData\Local\Google\Chrome\Application\chrome.exe","$file.html"],
+  "selector": "source.md"
 }
-{% endcodeblock %}
+```
 
-the final <code>Markdown.sublime-build</code> (OSX)
+<code>Markdown.sublime-build</code> (OSX):
 
-{% codeblock Markdown.sublime-build lang:json %}
+```json
 {
   "shell": "true",
   "cmd": ["/usr/local/bin/mmd \"$file\"; /usr/bin/open \"$file_path/$file_base_name.html\"", "&", "open", "-a", "Google Chrome", "$file.html"],
   "selector": "source.md"
 }
-{% endcodeblock %}
+```
+<a id="setup3"></a>
+### 3. Github Flavored Markdown(gfm) in Ruby
 
-## Getting Github Flavored Markdown(gfm) in Ruby
-
-- [Redcarpet2](https://github.com/vmg/redcarpet), I use it for my octopress blog [andxyz.com](http://andxyz.com)
+- [Redcarpet2](https://github.com/vmg/redcarpet), **I use redcarpet2** for my octopress blog [andxyz.com](http://andxyz.com)
 ```yml
 # Andxyz uses the redcarpet2 plugin so we can have "github flavored markdown"
 # https://github.com/nono/Jekyll-plugins/blob/master/redcarpet2_markdown.rb
@@ -83,7 +103,8 @@ redcarpet:
   extensions: ["hard_wrap", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "lax_spacing"]
 ```
 
-- [Github says they use this](http://github.github.com/github-flavored-markdown/) I don't really believe them, I think they are in c code now, they convert so much markdown it became a pain-point.
+- [Github says they use this ruby code](http://github.github.com/github-flavored-markdown/) I don't really believe them, I think they are in c code now, they convert so much markdown it became a pain-point.
+
 ```ruby
 require 'digest/md5'
 
@@ -114,3 +135,25 @@ def gfm(text)
   text
 end
 ```
+
+## Research list:
+
+##### As a Writer (think screenplays):
+
+
+- http://doingthatwrong.com/home/2012/3/6/multimarkdown-build-systems-for-sublime-text-2.html Inspiration for this post
+- http://www.davidwain.com/blog/
+- http://brettterpstra.com/why-markdown-a-two-minute-explanation/ (This man sells [a markdown app](http://markedapp.com/) if you are into that. He also has [free markdown and web-writing tools](http://brettterpstra.com/code/))
+- http://5by5.tv/systematic/20 - the show notes & links are key
+- http://johnaugust.com/apps [about](http://johnaugust.com/about)
+- http://www.candlerblog.com/projects/ [about](http://www.candlerblog.com/about/)
+- http://quoteunquoteapps.com/highland/
+
+##### As a Coder (think programmer/developer)
+
+- http://brettterpstra.com/
+- http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html
+- http://www.rumproarious.com/2012/10/29/markdown-the-spec/
+- http://fletcherpenney.net/multimarkdown/
+- http://github.github.com/github-flavored-markdown/
+
