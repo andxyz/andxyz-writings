@@ -41,7 +41,7 @@ category_dir: writings/categories
 markdown: redcarpet2 # markdown: rdiscount
 redcarpet:
   extensions: ["hard_wrap", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "lax_spacing"]
-pygments: true # default python pygments have been replaced by pygments.rb
+pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
 pagination_dir: writings  # Directory base for pagination URLs eg. /blog/page/2/
