@@ -18,12 +18,13 @@ Like this www.google.com/a/examplecompany.com
 2. Verify your domain (in the <code>setup</code> area after you sign in)
 [![setup google-apps-step1](/images/posts/google-apps-step2.png)](http://andxyz.com/images/posts/google-apps-step1.png)
 
-3. Then edit your dns mail records with your <code>DNS Manager</code> for your web domain. (you might need you webmaster to help you with this)
+3. Then edit your dns mail records with your <code>DNS Manager</code> for your web domain. (you might need your webmaster to help you with this)
 [![setup google-apps-step3](/images/posts/google-apps-step3.png)](http://andxyz.com/images/posts/google-apps-step1.png)
 
-4. Now you can setup ms-outlook or apple-mail:
--- Using IMAP with your email client (ex: outlook) http://support.google.com/mail/bin/answer.py?hl=en&answer=75726
+4. Now you can setup ms-outlook or apple-mail :
+-- Using IMAP with your email client [via google support][google-support]
 
 Inspired by the - [Ladies Learning Code Wordpress Workshop][llc-wordpress] with [Wes Bos](http://wesbos.com/).
 
 [llc-wordpress]: http://ladieslearningcode.com/2012/11/wordpress-for-beginners-is-back-and-these-are-the-mentors/
+[google-support]: http://support.google.com/mail/bin/answer.py?hl=en&answer=75726

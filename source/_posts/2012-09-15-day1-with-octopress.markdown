@@ -27,14 +27,15 @@ The following inspired me to take the plunge into this beefed up jekyll world of
 
 - I tweaked the theme scss, and layout files heavily
 - This [redcarpet2 markdown plugin][plugin] is awesome, get's me closer to [github flavored markdown][gfm]
-- You can read up on the [Liquid templates engine][liquid], [Jekyll][jekyll], and [Octopress][octopress] if you want
+- You can read up on the underlying technology: [Liquid templates engine][liquid], [Jekyll][jekyll], and [Octopress][octopress] if that is your style (was for me).
 
 ## Why Octopress and not just Jekyll 
 
 (Jekyll is the framework on which Octopress is based)
 
-[Tom Preston-Werner][mojombo], the creator of Jekyll said they use Jekyll at Github. 
-And so the future of the code-base is link to what github needs. Octopress was created by [Brandon Mathis][imathis] (a designer and coder) who is intent on pushing the Jekyll framework forward for the sake of fellow bloggers. He calls them <code>Hackers</code> because you need to use git and ruby to do what you want. Maybe one day Octopress can be like Gollum, and abstract the git part away. For now it seems it's <code>Hackers</code> only.
+[Tom Preston-Werner][mojombo], the creator of Jekyll said they use Jekyll at Github. Therefore, the future of the code-base is link to what github needs. 
+
+Octopress was created by [Brandon Mathis][imathis] (a designer and coder) who is intent on pushing the Jekyll framework forward for the sake of fellow bloggers. He calls them <code>Hackers</code> because you need to use git and ruby to do what you want. Maybe one day Octopress can be like Gollum, and abstract the git part away. For now it seems it's <code>Hackers</code> only.
 
 [readme]: https://github.com/imathis/octopress/blob/master/README.markdown
 [rakefile]: https://github.com/imathis/octopress/blob/master/Rakefile

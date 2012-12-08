@@ -7,20 +7,20 @@ title: "System of a Markdown"
 
 ## Uses for markdown
 
-- taking notes            (simplenoteapp.com + nvalt)
-- writing online          (like this website)
+- taking notes            ([simplenoteapp.com](http://simplenoteapp.com) + [nvalt](http://brettterpstra.com/project/nvalt/))
+- writing online          (like the website you are looking at right now)
 - html email with imgs    (helped when my mother was [considering buying a sink, example email](/images/posts/system-of-a-markdown-new-kitchen.markdown.html))
 
 So markdown has appeal, but how to set it up on OSX? [setup-1](#setup1), [setup-2](#setup2), [setup-3](#setup3)
 
 <a id="setup1"></a>
-### 1. SublimeText 2(ST2) plugin
+### 1a. SublimeText 2(ST2) plugin
 
 ##### Requirements
 
-0. the [sublime text 2](sublimetext.com/2) text-editor
-1. install the [package control plugin](http://wbond.net/sublime_packages/package_control) into sublimetext2 
-2. use package control to install the [markdown-preview plugin](https://github.com/revolunet/sublimetext-markdown-preview)
+0. the [Sublimetext 2](sublimetext.com/2) text-editor (costs $60)
+1. install the [package control plugin](http://wbond.net/sublime_packages/package_control) into sublimetext2 (free)
+2. use package control to install the [markdown-preview plugin](https://github.com/revolunet/sublimetext-markdown-preview) (free)
 
 Note: With these plugins (if you are a coder) you can use GitHub's free markdown rendering API. 
 POST to http://developer.github.com/v3/markdown/ 
@@ -138,8 +138,9 @@ end
 
 ## Research list:
 
-##### As a Writer (think screenplays):
+Another handy way to do it: http://brettterpstra.com/easy-command-line-github-flavored-markdown/
 
+##### Markdown as a Writer (think screenplays):
 
 - http://doingthatwrong.com/home/2012/3/6/multimarkdown-build-systems-for-sublime-text-2.html Inspiration for this post
 - http://www.davidwain.com/blog/
@@ -149,7 +150,7 @@ end
 - http://www.candlerblog.com/projects/ [about](http://www.candlerblog.com/about/)
 - http://quoteunquoteapps.com/highland/
 
-##### As a Coder (think programmer/developer)
+##### Markdown as a Coder (think programmer/developer)
 
 - http://brettterpstra.com/
 - http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html
