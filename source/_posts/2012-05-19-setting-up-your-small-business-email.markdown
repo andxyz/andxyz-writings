@@ -7,12 +7,12 @@ title: "Setting Up Your Small Business Email"
 
 ## Getting google apps (for free!) for your domain  
 
-This way you can have andrew@examplecompany.com (but it will be gmail that you sign into)
+This way you can have andrew@examplecompany.org (but it will be gmail that you sign into)
 It's just 4 easy steps.
 
-Like this www.google.com/a/examplecompany.com
+For example, it'd be as easy as signing in here www.google.com/a/examplecompany.org
 
-1. Just go here to sign up https://www.google.com/a/cpanel/standard/new3
+1. Just go here to sign up https://www.google.com/a/cpanel/standard/new (free for under 10 users)
 [![setup google-apps-step1](/images/posts/google-apps-step1.png)](http://andxyz.com/images/posts/google-apps-step1.png)
 
 2. Verify your domain (in the <code>setup</code> area after you sign in)
