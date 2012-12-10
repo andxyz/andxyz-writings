@@ -31,7 +31,7 @@ body > nav {
       }
     }
   }
-  fieldset[role=search]{ float: right; width: 48%; }
+  fieldset.search{ float: right; width: 48%; }
   fieldset.mobile-nav{ float: left; width: 48%;
     select{ width: 100%; font-size: .8em; border: 1px solid #888;}
   }
@@ -86,7 +86,7 @@ body > nav {
       .search { width: 91%; }
     }
     fieldset.mobile-nav { display: none; }
-    fieldset[role=search]{ width: 99%; }
+    fieldset.search{ width: 99%; }
   }
   @media only screen and (min-width: 992px) {
     form {
