@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Editor wars"
+title: "Text Editor Wars"
 date: 2012-11-22 05:45
 comments: true
 categories: 
 ---
 
-# Textmate vs SublimeText2:
+Let us now discuss text editors and their customizations. While we are at it, let's discuss shell custimizations too.
+
+## Textmate vs SublimeText2:
 Or should I say al3x, drnix, rbates VS wbond, mhartl, 
 
 Textmate:
@@ -28,8 +30,9 @@ Sublimetext2:
 [sb2-hartl]: https://github.com/mhartl/rails_tutorial_sublime_text
 [sb2-someguy]: http://www.nickdesteffen.com/blog/switching-to-sublime-text-2
 
-# Vim vs Emacs:
-Or should I say tpope, tomayko, tenderlove VS defunkt, 
+## Vim vs Emacs:
+
+Or should I say tpope, tomayko, tenderlove VS defunkt, senny
 
 Vim:
 - tpope pathogen, fugitive, [ctags][v-tpope-ctags], and more at [github.com/tpope][v-tpope-github]
@@ -37,6 +40,7 @@ Vim:
 
 Emacs:
 - Chris Wanstrath [magit][e-chris-magit], [textmate-mode][e-chris-textmate], [coffee-mode][e-chris-coffee]
+- Yves Senn [cabbage][e-senny-cabbage], [write-up][[e-senny-writing], 
 
 [v-tpope-github]: https://github.com/tpope
 [v-tpope-ctags]: http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html
@@ -48,15 +52,23 @@ Emacs:
 [e-chris-coffee]: https://github.com/defunkt/coffee-mode
 [e-chris-magit]: https://github.com/defunkt/magit
 
+[e-senny-writing]: http://blog.senny.ch/blog/2012/09/29/gear-up-getting-started-with-emacs/
+[e-senny-cabbage]: http://senny.github.com/cabbage/
 
-# What an editor really needs
+
+## What an editor really needs
 
 some sort of manageable plugin system and a plugin language
 
-Textmate: 
+Textmate: bundles
 
 Sublimetext2: package control
 
 Vim: pathogen
 
-Emacs: 
+Emacs: cabbage
+
+## ZSH vs Bash
+oh-my-zsh vs bash-it
+
+
