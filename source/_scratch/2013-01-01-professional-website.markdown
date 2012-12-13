@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Changing Domain Names"
+title: "Personal Website"
 date: 2012-11-30 23:59
 comments: true
 ---
@@ -9,11 +9,11 @@ Domain Names, 404s, no_www and Online Portfolios
 
 
 ### DHH
+http://david.heinemeierhansson.com/blah nginx/0.7.65
+http://david.heinemeierhansson.com/blahhtml
 http://www.loudthinking.com
 http://loudthinking.com
-http://david.heinemeierhansson.com
-http://david.heinemeierhansson.com/where-the-404-at.html
-http://david.heinemeierhansson.com/where-the-404-at.dog
+
 
 Report Card:
 Domain names: Was cool, but now he uses his own name
@@ -33,4 +33,14 @@ http://naeblis.cx/rtomayko/2005/05/24/cha-cha-cha-cha-changes
 ### Joshua Peak
 https://joshpeek.com
 https://github.com/josh
+
+
+
+### A review of web frameworks for a personal professional website(blog like site)
+jekyll or octopress
+
+docpad
+https://npmjs.org/package/docpad-plugin-feedr
+
+sinatra
 
