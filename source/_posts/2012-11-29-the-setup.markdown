@@ -6,11 +6,11 @@ comments: true
 ---
 
 ## Coding & Computers
- - [github/andxyz/the-setup][mysetup-github] (work-in-progress)
+ - [github.com/andxyz/the-setup][mysetup-github] (work-in-progress)
 
 ## Web-browsers
-- [Chrome Extenstions][my-chrome] (complete)
-- [Firefox Extensions][my-firefox] (complete)
+- [Chrome Extenstions][mysetup-chrome] (complete)
+- [Firefox Extensions][mysetup-firefox] (complete)
 - Safari Extenstions (I just use the inspector)
 - IE Extensions (<img class="emoji plain" src="/images/custom/trollface.png" width="24" height="24">)
 - Opera, Konqueror, Linx ... etcetera (I don't use these...)
@@ -20,7 +20,7 @@ comments: true
 <object width="600" height="450"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fandxyz%2Fsets%2F72157632131411262%2Fshow%2F&page_show_back_url=%2Fphotos%2Fandxyz%2Fsets%2F72157632131411262%2F&set_id=72157632131411262&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=122138"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=122138" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fandxyz%2Fsets%2F72157632131411262%2Fshow%2F&page_show_back_url=%2Fphotos%2Fandxyz%2Fsets%2F72157632131411262%2F&set_id=72157632131411262&jump_to=" width="600" height="450"></embed></object>
 
 
-[my-chrome]: /pages/chrome-extensions/
-[my-firefox]: /pages/firefox-extensions/
+[mysetup-chrome]: /pages/chrome-extensions/
+[mysetup-firefox]: /pages/firefox-extensions/
 [mysetup-github]: http://github.com/andxyz/the-setup#readme
 [mysetup-flickr]: http://www.flickr.com/photos/andxyz/8230031692/in/set-72157632131411262/
