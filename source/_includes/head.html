@@ -4,36 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
 
-<!--
-/*
- *                                                                                                                                       
- *                                                                 dddddddd                                                              
- *                   AAA                                           d::::::d                                                              
- *                  A:::A                                          d::::::d                                                              
- *                 A:::::A                                         d::::::d                                                              
- *                A:::::::A                                        d:::::d                                                               
- *               A:::::::::A         nnnn  nnnnnnnn        ddddddddd:::::d xxxxxxx      xxxxxxxyyyyyyy           yyyyyyyzzzzzzzzzzzzzzzzz
- *              A:::::A:::::A        n:::nn::::::::nn    dd::::::::::::::d  x:::::x    x:::::x  y:::::y         y:::::y z:::::::::::::::z
- *             A:::::A A:::::A       n::::::::::::::nn  d::::::::::::::::d   x:::::x  x:::::x    y:::::y       y:::::y  z::::::::::::::z 
- *            A:::::A   A:::::A      nn:::::::::::::::nd:::::::ddddd:::::d    x:::::xx:::::x      y:::::y     y:::::y   zzzzzzzz::::::z  
- *           A:::::A     A:::::A       n:::::nnnn:::::nd::::::d    d:::::d     x::::::::::x        y:::::y   y:::::y          z::::::z   
- *          A:::::AAAAAAAAA:::::A      n::::n    n::::nd:::::d     d:::::d      x::::::::x          y:::::y y:::::y          z::::::z    
- *         A:::::::::::::::::::::A     n::::n    n::::nd:::::d     d:::::d      x::::::::x           y:::::y:::::y          z::::::z     
- *        A:::::AAAAAAAAAAAAA:::::A    n::::n    n::::nd:::::d     d:::::d     x::::::::::x           y:::::::::y          z::::::z      
- *       A:::::A             A:::::A   n::::n    n::::nd::::::ddddd::::::dd   x:::::xx:::::x           y:::::::y          z::::::zzzzzzzz
- *      A:::::A               A:::::A  n::::n    n::::n d:::::::::::::::::d  x:::::x  x:::::x           y:::::y          z::::::::::::::z
- *     A:::::A                 A:::::A n::::n    n::::n  d:::::::::ddd::::d x:::::x    x:::::x         y:::::y          z:::::::::::::::z
- *    AAAAAAA                   AAAAAAAnnnnnn    nnnnnn   ddddddddd   dddddxxxxxxx      xxxxxxx       y:::::y           zzzzzzzzzzzzzzzzz
- *                                                                                                   y:::::y                             
- *                                                                                                  y:::::y                              
- *                                                                                                 y:::::y                               
- *                                                                                                y:::::y                                
- *                                                                                               yyyyyyy                                 
- *                                                                                                                                       
- *                                                                                                                                       
- */
--->
-
+  {% include custom/ascii.html %}
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="author" content="{{ site.author }}">
@@ -56,4 +27,5 @@
   <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
   {% include custom/head.html %}
   {% include google_analytics.html %}
+  
 </head>
