@@ -79,8 +79,8 @@ strong { font-weight: bold; }
 em { font-style: italic; }
 
 sup, sub { font-size: 0.8em; position: relative;  display: inline-block; }
-sup { top: -.5em; }
-sub { bottom: -.5em; }
+sup { top: -1.0em; }
+sub { bottom: -0.5em; }
 
 q { font-style: italic;
   &:before { content: "\201C"; }

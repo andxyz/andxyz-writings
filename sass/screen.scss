@@ -3,10 +3,10 @@
 @include reset-html5;
 
 @import "custom/andxyz-colors";
-@import "custom/andxyz-fonts";
 @import "custom/andxyz-layout";
 @import "base";
 @import "partials";
+@import "custom/andxyz-fonts";
 
 @import "custom/andxyz-theme-overrides";
 @import "custom/andxyz-icon-font";
