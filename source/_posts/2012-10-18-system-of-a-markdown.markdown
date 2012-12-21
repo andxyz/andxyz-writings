@@ -152,6 +152,7 @@ Another handy way to do it: http://brettterpstra.com/easy-command-line-github-fl
 
 ##### Markdown as a Coder (think programmer/developer)
 
+- http://www.rumproarious.com/2012/10/29/going-long-on-markdown/
 - http://brettterpstra.com/
 - http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html
 - http://www.rumproarious.com/2012/10/29/markdown-the-spec/
