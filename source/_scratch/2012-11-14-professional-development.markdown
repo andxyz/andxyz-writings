@@ -20,4 +20,3 @@ some ideas:
 ## Conference in Toronto
 - Throne of JS, would've enjoyed it immensely
 
-
