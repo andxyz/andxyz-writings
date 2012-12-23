@@ -5,13 +5,16 @@ layout: post
 title: "Day 1 with Octopress"
 ---
 
-[![octopress logo 2012](/images/posts/octopress-logo.png)](/images/posts/octopress-logo.png) 
+<div class="writings-main-img">
+  <img src="/images/posts/octopress-logo.png" alt="octopress logo - cute octopus with a typewriter"> 
+</div>
 
-Octopress is a framework for blogging. (Octopress uses git and ruby to produce a static site)
+## What is Octopress
+Octopress is a framework for blogging. (Octopress uses git and ruby to produce a static site). There are design trade-offs for all website platforms and octopress is only truly useful when compared to other platforms, be they: tumblr, wordpress.com, wordpress.org, nanoc, jekyll, etc. the list goes on. Octopress fits my needs: ruby-centric, static-site, markdown (using a ruby library for parsing), rsync deploys, git as the version control system.
 
 ## Things to know if you are a newbie to ruby and rake.
 
-Ruby is the language, `rake` is like `make`. Tools start with an <code>r</code> when it is ruby-esque version of a unix tool. Same old, same old, really.
+Ruby is the language, `rake` is like `make`. Tools start with an <code>r</code> when it is a ruby-esque version of a unix tool. Same old, same old, really.
 
 Figuring out how to do some simple things was easy. It's all listed in the [README.markdown][readme] and the [Rakefile][rakefile]. Good comments, seems pretty clear.
 
@@ -33,9 +36,9 @@ The following inspired me to take the plunge into this beefed up jekyll world of
 
 (Jekyll is the framework on which Octopress is based)
 
-[Tom Preston-Werner][mojombo], the creator of Jekyll said they use Jekyll at Github. Therefore, the future of the code-base is link to what github needs. 
+[Tom Preston-Werner][mojombo], the creator of Jekyll said he uses Jekyll at Github. Therefore, the future of the code-base is link to what github needs. 
 
-Octopress was created by [Brandon Mathis][imathis] (a designer and coder) who is intent on pushing the Jekyll framework forward for the sake of fellow bloggers. He calls them <code>Hackers</code> because you need to use git and ruby to do what you want. Maybe one day Octopress can be like Gollum, and abstract the git part away. For now it seems it's <code>Hackers</code> only.
+Octopress was created by [Brandon Mathis][imathis] (a designer and coder) who is intent on pushing the Jekyll framework forward for the sake of fellow bloggers. He calls them <code>Hackers</code> because you need to use git and ruby to do what you want. Maybe one day Octopress can be like Gollum, and abstract the git part away into a webapp. For now it seems it's <code>Hackers</code> only.
 
 [readme]: https://github.com/imathis/octopress/blob/master/README.markdown
 [rakefile]: https://github.com/imathis/octopress/blob/master/Rakefile

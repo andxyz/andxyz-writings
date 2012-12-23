@@ -71,9 +71,7 @@ body #content #blog-archives {
     font-family: "Droid Sans Mono", "Courier New", sans-serif;
     line-height: 1.2em;
     font-size: 1.2em;
-    right: -2em;
-    top: 1.2em;
-    position: absolute; }
+    float: right; }
 
   .year {
     display: inline-block;
@@ -81,14 +79,14 @@ body #content #blog-archives {
     left: -7em; }
 
   article {
-    padding-left:  10px;
-    padding-right: 10px;
-    margin-left:  55px;
-    margin-right: 55px; } 
+    padding: 0px 10px 10px 10px;
+    margin: 10px 55px 0px 55px; } 
 
   h1 {
+    margin: 0em;
     font-size: 1.2em;
-    } }
+    float: left; }
+}
 
 // writings
 .writings-main-img { 
