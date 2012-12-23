@@ -5,6 +5,10 @@ layout: post
 title: "System of a Markdown"
 ---
 
+<div class="writings-main-img">
+  <img src="/images/posts/system-of-a-markdown-logo-208x128.png" alt="markdown logo - m with downward arrow" width="208" height="128"> 
+</div>
+
 ## Uses for markdown
 
 - taking notes            ([simplenoteapp.com](http://simplenoteapp.com) + [nvalt](http://brettterpstra.com/project/nvalt/))
@@ -14,7 +18,7 @@ title: "System of a Markdown"
 So markdown has appeal, but how to set it up on OSX? [setup-1](#setup1), [setup-2](#setup2), [setup-3](#setup3)
 
 <a id="setup1"></a>
-### 1a. SublimeText 2(ST2) plugin
+### 1. SublimeText 2(ST2) plugin
 
 ##### Requirements
 
@@ -159,3 +163,6 @@ Another handy way to do it: http://brettterpstra.com/easy-command-line-github-fl
 - http://fletcherpenney.net/multimarkdown/
 - http://github.github.com/github-flavored-markdown/
 
+##### special thanks to
+
+the markdown logo creator [dcurtis](https://github.com/dcurtis/markdown-mark#readme)
