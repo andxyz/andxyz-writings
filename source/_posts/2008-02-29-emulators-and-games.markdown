@@ -1,5 +1,5 @@
 ---
-comments: true
+comments: false
 date: 2008-02-29 13:19:16
 layout: post
 slug: emulators-and-games

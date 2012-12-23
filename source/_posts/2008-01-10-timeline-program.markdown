@@ -1,5 +1,5 @@
 ---
-comments: true
+comments: false
 date: 2008-01-10 02:18:30
 layout: post
 slug: timeline-program

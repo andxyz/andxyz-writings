@@ -1,5 +1,5 @@
 ---
-comments: true
+comments: false
 date: 2007-11-26 16:13:23
 layout: post
 title: "Frameworks Spreading Me Thin"
