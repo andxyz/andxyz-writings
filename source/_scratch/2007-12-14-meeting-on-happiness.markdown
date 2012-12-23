@@ -1,5 +1,5 @@
 ---
-comments: true
+comments: false
 date: 2007-12-14 01:57:02
 layout: post
 slug: meeting-on-happiness
