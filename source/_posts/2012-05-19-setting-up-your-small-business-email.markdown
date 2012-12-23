@@ -12,7 +12,7 @@ title: "Setting Up Your Small Business Email"
 
 **update: google apps is no longer free, in my opinion this is a huge change for small business owners**
 
-# Getting google apps (for free!) for your domain  
+## Getting google apps (for free!) for your domain  
 
 This way you can have andrew@examplecompany.org (but it will be gmail that you sign into)
 It's just 4 easy steps.
