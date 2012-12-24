@@ -39,6 +39,7 @@ With every personal website I see, the <code>about</code> button is always a cli
 
 ### Things todo/checkout
 
+- https://github.com/davatron5000/Lettering.js
 - https://github.com/ftlabs/fastclick play with ipad links
 - http://octopress.org/docs/plugins/include-code/ change code blocks into code downloads 
 
