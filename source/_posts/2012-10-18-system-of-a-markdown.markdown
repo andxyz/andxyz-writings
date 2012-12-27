@@ -11,9 +11,9 @@ title: "System of a Markdown"
 
 ## Uses for markdown
 
-- taking notes            ([simplenoteapp.com](http://simplenoteapp.com) + [nvalt](http://brettterpstra.com/project/nvalt/))
 - writing online          (like the website you are looking at right now)
-- html email with imgs    (helped when my mother was [considering buying a sink, example email](/images/posts/system-of-a-markdown-new-kitchen.markdown.html))
+- taking notes            ([simplenoteapp.com](http://simplenoteapp.com) + [nvalt](http://brettterpstra.com/project/nvalt/))
+- html email with imgs    (when you have to make purchasing decisions [sample email I've sent: buying a sink](/images/posts/system-of-a-markdown-new-kitchen.markdown.html))
 
 So markdown has appeal, but how to set it up on OSX? [setup-1](#setup1), [setup-2](#setup2), [setup-3](#setup3)
 
@@ -59,7 +59,8 @@ Installing the software for turning a <code>input.markdown</code> source file in
 The Sublime Text 2 Build System
 
 Save the following <code>Markdown.sublime-build</code> file to your <code>User</code> folder in <code>Packages</code>. 
-The folder Windows 7 system this is:
+
+On Windows 7:
 
 ```ruby
 'C:\Users\USERNAME\AppData\Roaming\Sublime Text 2\Packages\User\'
@@ -71,7 +72,7 @@ On OSX:
 /usr/Users/andxyz/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 ```
 
-Open a Mardown file (with *.md file extension) and hit F7.
+Open a Markdown file (with *.md file extension) and hit F7.
 It will make the <code>filename.html</code> and show the file in the browser
 
 <code>Markdown.sublime-build</code> (Windows7):
@@ -166,3 +167,4 @@ Another handy way to do it: http://brettterpstra.com/easy-command-line-github-fl
 ##### special thanks to
 
 the markdown logo creator [dcurtis](https://github.com/dcurtis/markdown-mark#readme)
+
