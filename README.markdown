@@ -1,6 +1,6 @@
 [andxyz.com](http://andxyz.com/)
 
-Personal website of Andrew Stevens 
+Personal website of Andrew Stevens
 
 ### Design Notes
 
@@ -19,7 +19,7 @@ Two posts made me think the most, http://tomayko.com/writings/administrative-deb
 
 With every personal website I see, the <code>about</code> button is always a click away, even on kylerushes personal site. [Tom Preston-Werners](tom.preston-werner.com) face is a mystery to me. [Ryan Tomayko](http://tomayko.com)'s I know. The difference is that tomayko discusses himself a few short seconds before sharing his ideas. That has made all the difference. Dropping the multi-column layout is getting rid of administrative debris. Generating a static site makes the codebase a pleasure to work on. That is what I want. I feel these people are all hovering around the same notion.
 
-## Notes for myself: 
+## Notes for myself:
 
 ### Useful tasks
 
@@ -39,9 +39,36 @@ With every personal website I see, the <code>about</code> button is always a cli
 
 ### Things todo/checkout
 
+- Retina screen 2x magic etc etc
+- jammit as asset pipeline http://mikeferrier.com/2011/04/29/blogging-with-jekyll-haml-sass-and-jammit/
+- css updates for better typography
 - https://github.com/davatron5000/Lettering.js
 - https://github.com/ftlabs/fastclick play with ipad links
-- http://octopress.org/docs/plugins/include-code/ change code blocks into code downloads 
+- http://octopress.org/docs/plugins/include-code/ change code blocks into code downloads
 
+#### css changes
 
+```css
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizelegibility;
+  margin: 1em 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 
+body {
+  font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+ol, ul {
+  margin-left: 2em;
+}
+
+#blog-archives time {
+  vertical-align: bottom;
+  margin-left: 50px;
+  float: right;
+}
+```
