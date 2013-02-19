@@ -9,11 +9,11 @@ html {
 }
 
 article div.about-author {
-  width: 600px; 
+  width: 80%;
   margin: 0 auto;
 
   .bio-overview {
-    padding-left: 300px;
+    padding-left: 40%;
 
     h1,h2,h3,h4,h5,h6 {
       margin-bottom: 0.5em; }
@@ -27,14 +27,17 @@ article div.about-author {
 
   h1 {
     margin: 0 18px 0.2em;
-    font-size: 62px; }
+    font-size: 62px;
+    text-align: center; }
 
   img.author {
     border:none;
     float:left;
+    width: 40%;
+    height: 40%;
     vertical-align: text-top;
-    margin-right: 40px;
-    margin-bottom: 40px;
+    margin-right: 5%;
+    margin-bottom: 5%;
     @include border-radius(135px);
     @include box-shadow(0 0 10px 0px #888); }
 
@@ -71,21 +74,32 @@ body #content #blog-archives {
     font-family: "Droid Sans Mono", "Courier New", sans-serif;
     line-height: 1.2em;
     font-size: 1.2em;
-    float: right; }
+    float: right;
+    display: inline; }
 
   .year {
-    display: inline-block;
-    position: relative;
-    left: -7em; }
+    display: inline;
+  }
 
   article {
     padding: 0px 10px 10px 10px;
     margin: 10px 55px 0px 55px; } 
 
-  h1 {
+  span.title {
     margin: 0em;
     font-size: 1.2em;
-    float: left; }
+    display: inline; 
+    a {
+      color: $text-color;
+      text-decoration: none;
+    }
+    a:visited {
+      color: $link-color-visited;
+    }
+    a:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    } }
 }
 
 // writings
