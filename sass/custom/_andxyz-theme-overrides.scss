@@ -70,16 +70,9 @@ footer #rss-button {
 
 // archive
 body #content #blog-archives {
-  time {
-    font-family: "Droid Sans Mono", "Courier New", sans-serif;
-    line-height: 1.2em;
-    font-size: 1.2em;
-    float: right;
-    display: inline; }
 
-  .year {
-    display: inline;
-  }
+  h3 { color: $text-color;
+       padding: 0 50px; }
 
   article {
     padding: 0px 10px 10px 10px;
@@ -100,6 +93,17 @@ body #content #blog-archives {
       color: $link-color-hover;
       text-decoration: underline;
     } }
+
+  time {
+    font-family: "Droid Sans Mono", "Courier New", sans-serif;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    float: right;
+    display: inline; }
+
+  .year {
+    display: inline;
+  }
 }
 
 // writings
