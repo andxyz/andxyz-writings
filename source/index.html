@@ -5,7 +5,7 @@ sidebar: false
 
 <article class="bio">
   <div class="about-author">
-    {% include summary.html %}
+    {% include custom/summary.html %}
   </div>
 </article>
 
@@ -13,7 +13,7 @@ sidebar: false
   <h3>Writings</h3>
   {% for post in site.posts reverse %}
     <article>
-      {% include archive_post.html %}
+      {% include custom/archive_post.html %}
     </article>
   {% endfor %}
 </div>
