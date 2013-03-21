@@ -39,11 +39,16 @@ With every personal website I see, the <code>about</code> button is always a cli
 
 ### Things todo/checkout
 
-- Retina screen 2x magic etc etc
-- jammit as asset pipeline http://mikeferrier.com/2011/04/29/blogging-with-jekyll-haml-sass-and-jammit/
-- css updates for better typography
-- https://github.com/davatron5000/Lettering.js
+- Retina screen 2x magic etc etc (apple-icon, android-icon)
+- jammit as asset pipeline 
+http://mikeferrier.com/2011/04/29/blogging-with-jekyll-haml-sass-and-jammit/
+https://github.com/zealot128/stefanwienert.net/blob/stefanwienert/plugins/jammit_generator.rb
+- typography fun 
+http://zachholman.com/posts/retina/
+https://github.com/davatron5000/Lettering.js
+
 - https://github.com/ftlabs/fastclick play with ipad links
+
 - http://octopress.org/docs/plugins/include-code/ change code blocks into code downloads
 
 #### css changes
