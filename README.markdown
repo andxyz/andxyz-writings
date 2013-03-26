@@ -26,11 +26,21 @@ Personal website of Andrew Stevens
 
 ## Why Jekyll/Octopress?
 
-Two posts made me think the most, http://tomayko.com/writings/administrative-debris and http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/
+Two posts made me think the most:
+
+- http://tomayko.com/writings/administrative-debris 
+- http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/
 
 ### Some thoughts on writing online in general
 
-With every personal website I see, the <code>about</code> button is always a click away, even on kylerushes personal site. [Tom Preston-Werners](tom.preston-werner.com) face is a mystery to me. [Ryan Tomayko](http://tomayko.com)'s I know. The difference is that tomayko discusses himself a few short seconds before sharing his ideas. That has made all the difference. Dropping the multi-column layout is getting rid of administrative debris. Generating a static site makes the codebase a pleasure to work on. That is what I want. I feel these people are all hovering around the same notion.
+With every personal website I see, the <code>about</code> button is always a click away, even on kylerushes personal site.
+
+[Tom Preston-Werners](http://tom.preston-werner.com) face is a mystery to me. 
+[Ryan Tomayko](http://tomayko.com)'s I know. 
+
+The difference is that tomayko discusses himself in few short seconds before sharing his ideas. That has made all the difference. Dropping the multi-column layout is getting rid of administrative debris. Generating a static site makes the codebase a pleasure to work on. That is what I want. I feel these people are all hovering around the same notion.
+
+[dhh's site](http://david.heinemeierhansson.com/) is all one page now. awesome. This happened after I made my blog. The wavelength is definately out there.
 
 ## Notes for myself:
 
@@ -62,10 +72,10 @@ With every personal website I see, the <code>about</code> button is always a cli
   - http://mikeferrier.com/2011/04/29/blogging-with-jekyll-haml-sass-and-jammit/
   - https://github.com/zealot128/stefanwienert.net/blob/stefanwienert/plugins/jammit_generator.rb
 
-- typography fun 
+- typography fun
   - http://zachholman.com/posts/retina/
   - https://github.com/davatron5000/Lettering.js
 
-- https://github.com/ftlabs/fastclick play with ipad links
+- https://github.com/ftlabs/fastclick play with ipad links. never heard of this. what?
 
-- http://octopress.org/docs/plugins/include-code/ change code blocks into code downloads
+- http://octopress.org/docs/plugins/include-code/ change code blocks into code downloads also
