@@ -1,4 +1,6 @@
 /bin
+.tags
+.tags_sorted_by_file
 .bin
 .bundle
 .DS_Store
