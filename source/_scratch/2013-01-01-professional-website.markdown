@@ -75,11 +75,11 @@ https://npmjs.org/package/docpad-plugin-feedr
 squarespace
 http://www.squarespace.com/ http://www.squarespace.com/pricing/
 
+4ormat
+http://4ormat.com http://4ormat.com/plans
+
 tumblr
 http://www.tumblr.com/
 
 wordpress
-http://wordpress.org/ or http://wordpress.com
-
-4ormat
-http://4ormat.com/
+http://wordpress.org/ (host it yourself) or http://wordpress.com (host it with them)

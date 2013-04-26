@@ -28,15 +28,15 @@ Personal website of Andrew Stevens
 
 Two posts made me think the most:
 
-- http://tomayko.com/writings/administrative-debris 
+- http://tomayko.com/writings/administrative-debris
 - http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/
 
 ### Some thoughts on writing online in general
 
 With every personal website I see, the <code>about</code> button is always a click away, even on kylerushes personal site.
 
-[Tom Preston-Werners](http://tom.preston-werner.com) face is a mystery to me. 
-[Ryan Tomayko](http://tomayko.com)'s I know. 
+[Tom Preston-Werners](http://tom.preston-werner.com) face is a mystery to me.
+[Ryan Tomayko](http://tomayko.com)'s I know.
 
 The difference is that tomayko discusses himself in few short seconds before sharing his ideas. That has made all the difference. Dropping the multi-column layout is getting rid of administrative debris. Generating a static site makes the codebase a pleasure to work on. That is what I want. I feel these people are all hovering around the same notion.
 
@@ -68,7 +68,9 @@ The difference is that tomayko discusses himself in few short seconds before sha
 
 - Retina screen 2x magic etc etc (apple-icon, android-icon)
 
-- jammit as asset pipeline 
+- type design inspiration http://bootswatch.com/  http://zachholman.com
+
+- jammit as asset pipeline
   - http://mikeferrier.com/2011/04/29/blogging-with-jekyll-haml-sass-and-jammit/
   - https://github.com/zealot128/stefanwienert.net/blob/stefanwienert/plugins/jammit_generator.rb
 
