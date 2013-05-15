@@ -13,6 +13,7 @@ public
 sass.old
 source.old
 source/_stash
+source/files-hide/*
 source/stylesheets/screen.css
 vendor
 node_modules
