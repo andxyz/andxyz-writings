@@ -24,6 +24,10 @@ Personal website of Andrew Stevens
 
   - [zeldman.com](http://www.zeldman.com/2012/05/18/web-design-manifesto-2012/)
 
+  - [mattgemmell.com](http://mattgemmell.com/)
+
+  - [Gordon L. Hempton](http://codebrief.com/)
+
 ## Why Jekyll/Octopress?
 
 Two posts made me think the most:
@@ -46,23 +50,24 @@ The difference is that tomayko discusses himself in few short seconds before sha
 
 ### Useful tasks
 
-'''
-  bundle exec rake clean
-  bundle exec rake new_post['do the readme first']
-  bundle exec rake preview
-  bundle exec rake generate
-  bundle exec rake deploy
-  git diffks andxyz
-'''
+```bash
+bundle exec rake clean
+bundle exec rake new_post['do the readme first']
+bundle exec rake preview
+bundle exec rake generate
+bundle exec rake deploy
+git diffks andxyz
+```
 
 ### Branch setup
 
-'''
-  **branch-andxyz** : I deploy from
-  **branch-master** : octopress proper
-  **remote-origin** : my linode gitolite
-  **remote-imathis** : github.com/imathis/octopress.git
-'''
+```bash
+**branch-andxyz** : I deploy from
+**branch-master** : octopress proper
+**remote-origin** : my linode gitolite
+**remote-imathis** : https://github.com/imathis/octopress.git
+**remote-github*** : https://github.com/andxyz/andxyz-writings.git
+```
 
 ### TODO / Look-into
 
@@ -81,3 +86,21 @@ The difference is that tomayko discusses himself in few short seconds before sha
 - https://github.com/ftlabs/fastclick play with ipad links. never heard of this. what?
 
 - http://octopress.org/docs/plugins/include-code/ change code blocks into code downloads also
+
+- etags for nginx
+
+  http://edgeguides.rubyonrails.org/asset_pipeline.html#far-future-expires-header
+
+  https://github.com/h5bp/server-configs/tree/master/nginx/conf#readme
+
+  https://github.com/h5bp/server-configs/blob/561c376d2717ede751730b0a6f4fe3a0c300b49f/nginx/conf/expires.conf
+
+```nginx
+location ~ ^/assets/ {
+  expires 1M;
+  add_header Cache-Control public;
+ 
+  add_header ETag "";
+  break;
+}
+```
