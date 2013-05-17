@@ -2,54 +2,56 @@ html {
   background: $page-bg image-url('noise.png') top left;
 }
 
-// bio 
-#content article.bio {
-  padding: 0;
-  margin: 0;
+// the bio area
+div.about-author {
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 auto;
 }
 
-article div.about-author {
-  width: 80%;
-  margin: 0 auto;
-
-  .bio-overview {
-    float:left;
-
-    h1,h2,h3,h4,h5,h6 {
-      margin-bottom: 0.5em; }
-
-    p {
-      margin-bottom: 0.5em; }
-      
-    ul {
-      margin-left: 0em;
-      list-style: none; } }
-
+div.about-author {
   h1 {
     margin: 0 0 18px 0px;
     font-size: 52px;
   }
 
-  img.author {
-    border:none;
-    float:left;
-    width: 255px;
+  img.avatar {
+    border: none;
+    width:  255px;
     height: 255px;
+    float:left;
     vertical-align: text-top;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    margin-right:   5%;
     @include border-radius(135px);
-    @include box-shadow(0 0 10px 0px #888); }
+    @include box-shadow(0 0 10px 0px #888); 
+  }
 
-  img.li {
-    vertical-align: text-bottom;
-    margin-right:   10px; }
+  .bio-overview {
 
-  li:first-child {
-    padding-top: 0; }
+    h1,h2,h3,h4,h5,h6 {
+      margin-bottom: 0.5em;
+    }
 
-  li {
-    padding-top: 20px; } }
+    p {
+      margin-bottom: 0.5em;
+    }
+      
+    ul {
+      margin: 0 0 0 1.5em;
+      list-style: none;
+      
+    } 
+
+    img.li {
+      vertical-align: text-bottom;
+      margin-right: 10px;
+    }
+
+    li {
+      padding-top: 20px;
+    }
+  }
+}
 
 // header
 body > header {
@@ -72,11 +74,11 @@ footer #rss-button {
 body #content #blog-archives {
 
   h3 { color: $text-color;
-       padding: 0 50px; }
+       padding: 0; }
 
   article {
     padding: 0px 10px 10px 10px;
-    margin: 10px 55px 0px 55px; } 
+    margin: 10px 20px 0px 20px; } 
 
   span.title {
     margin: 0em;
@@ -109,6 +111,13 @@ body #content #blog-archives {
 // writings
 .writings-main-img { 
   text-align:center; }
+
+// crazy imathis padding background-size: 
+body{
+ #content > article, #content > div > article, #content > div > section {
+  padding: 0px;
+ }
+}
 
 // page
 #content article h1.entry-title {
