@@ -1,0 +1,53 @@
+// mobile magic
+@media screen and (max-width: 520px) {
+  body {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 520px;
+    word-wrap: break-word;
+  }
+
+  pre {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  body #content #blog-archives time {
+    display: none;
+  }
+
+  img.logo {
+  }
+
+  img.photo {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  div.about-author h1 {
+    margin: 0 0 10px 0;
+    font-size: 38px !important;
+  }
+  
+  div.about-author img.avatar {
+    height: 156px;
+    width: 156px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    width: 100%;
+  }
+
+  div.about-author h1 {
+    margin: 0 0 10px 0;
+    font-size: 38px !important;
+  }
+
+  div.about-author img.avatar {
+    height: 110px;
+    width: 110px;
+  }
+}
