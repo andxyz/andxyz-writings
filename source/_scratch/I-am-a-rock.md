@@ -1,0 +1,1 @@
+I am a rock who watches the world pass, I was here before there was a "this", I will be here after "this" is gone.
