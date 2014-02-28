@@ -20,13 +20,13 @@ Personal website of Andrew Stevens
 
   - [mattsears.com](http://mattsears.com/)
 
-  - [signal-vs-noise](http://37signals.com/svn/)
+  - [signal-vs-noise](http://signalvnoise.com/)
 
   - [zeldman.com](http://www.zeldman.com/2012/05/18/web-design-manifesto-2012/)
 
   - [mattgemmell.com](http://mattgemmell.com/)
 
-  - [Gordon L. Hempton](http://codebrief.com/)
+  - [Gordon L. Hempton](http://codebrief.com/about/)
 
 ## Why Jekyll/Octopress?
 
