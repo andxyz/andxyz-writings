@@ -1,5 +1,5 @@
 
-add urlize to my list of extensions for Markdown preview
+add urlize to my list of extensions for Markdown preview (when I use "Markdown Preview: Python Markdown: Preview in Browser")
 
 ```bash
 curl https://raw.github.com/r0wb0t/markdown-urlize/master/urlize.py -o ~/Desktop/urlize.py
@@ -9,4 +9,4 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Markdown\ Preview/ma
 sudo python2.6 -m compileall .
 ```
 
-checkout into pandown
+
