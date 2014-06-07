@@ -2,11 +2,14 @@
 @include global-reset;
 @include reset-html5;
 
+* {
+  @include box-sizing( border-box );
+}
 @import "custom/andxyz-colors";
 @import "custom/andxyz-layout";
+@import "custom/andxyz-fonts";
 @import "base";
 @import "partials";
-@import "custom/andxyz-fonts";
 
 @import "custom/andxyz-theme-overrides";
 @import "custom/andxyz-mobile";

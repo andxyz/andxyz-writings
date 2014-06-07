@@ -37,7 +37,7 @@ Most importantly is a poster by IBM called ["The Men of Modern Mathematics"][mat
 
 **Update 2012**: see also the [IBM Mathematicians ipad app][ibm-math-ipad] 
 
-  [thepeterstevens]: http://thepeterstevens.com
+  [thepeterstevens]: http://www.peter-stevens.ca
   [longnow]: http://www.longnow.org
   [goog]: http://www.google.com/finance?q=goog
   [simile]: http://simile.mit.edu/timeline/
