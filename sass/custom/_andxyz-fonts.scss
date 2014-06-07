@@ -8,8 +8,19 @@
 //$heading-font-family: "Verdana", sans-serif;
 //$header-title-font-family: "Futura", sans-serif;
 //$header-subtitle-font-family: "Futura", sans-serif;
+$sans: "Open Sans", "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
+$andxyz-sans: $sans;
+$serif: "Helvetica Neue", "PT Serif", Georgia, Times, "Times New Roman", serif !default;
+$andxyz-serif: $serif;
+$heading-font-family: "Open Sans", "PT Sans", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
+$header-title-font-family: $heading-font-family !default;
+$header-subtitle-font-family: $heading-font-family !default;
+
 
 sup { top: -1.0em; }
 @media only screen and (min-width: 992px) {
   body { font-size: 16px; }
+}
+body {
+  font-family: $andxyz-serif;
 }
