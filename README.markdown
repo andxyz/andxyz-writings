@@ -99,7 +99,7 @@ git diffks andxyz
 location ~ ^/assets/ {
   expires 1M;
   add_header Cache-Control public;
- 
+
   add_header ETag "";
   break;
 }
