@@ -29,7 +29,11 @@
     margin: 0 0 10px 0;
     font-size: 38px;
   }
-  
+
+  div.about-author .avatar-figure {
+    padding: 0 15px 0 5px;
+  }
+
   div.about-author img.avatar {
     height: 156px;
     width: 156px;
@@ -44,6 +48,10 @@
   div.about-author h1 {
     margin: 0 0 10px 0;
     font-size: 32px;
+  }
+
+  div.about-author .avatar-figure {
+    padding: 0 15px 0 5px;
   }
 
   div.about-author img.avatar {
