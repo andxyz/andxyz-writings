@@ -29,6 +29,11 @@
     margin: 0 0 10px 0;
     font-size: 38px;
   }
+  
+  div.about-author img.avatar {
+    height: 156px;
+    width: 156px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -39,5 +44,10 @@
   div.about-author h1 {
     margin: 0 0 10px 0;
     font-size: 32px;
+  }
+
+  div.about-author img.avatar {
+    height: 110px;
+    width: 110px;
   }
 }

@@ -18,10 +18,13 @@ div.about-author {
 
   img.avatar {
     border: none;
+    width:  255px;
+    height: 255px;
     float:left;
     vertical-align: text-top;
+    margin-right:   5%;
     @include border-radius(135px);
-    @include box-shadow(0 0 10px 0px #888);
+    @include box-shadow(0 0 10px 0px #888); 
   }
 
   .bio-overview {
@@ -33,11 +36,12 @@ div.about-author {
     p {
       margin-bottom: 0.5em;
     }
-
+      
     ul {
       margin: 0 0 0 1.5em;
       list-style: none;
-    }
+      
+    } 
 
     img.li {
       vertical-align: text-bottom;
@@ -55,7 +59,7 @@ body > header {
   padding-top: 10px;
   padding-bottom: 10px; }
 
-// footer & rss
+// footer & rss 
 footer .footer-copyright {
   text-align: center;
   line-height: 57px; }
@@ -75,12 +79,12 @@ body #content #blog-archives {
 
   article {
     padding: 0px 10px 10px 10px;
-    margin: 10px 20px 0px 20px; }
+    margin: 10px 20px 0px 20px; } 
 
   span.title {
     margin: 0em;
     font-size: 1.2em;
-    display: inline;
+    display: inline; 
     a {
       color: $text-color;
       text-decoration: none;
@@ -106,10 +110,10 @@ body #content #blog-archives {
 }
 
 // writings
-.writings-main-img {
+.writings-main-img { 
   text-align:center; }
 
-// crazy imathis padding background-size:
+// crazy imathis padding background-size: 
 body{
  #content > article, #content > div > article, #content > div > section {
   padding: 0px;
@@ -146,7 +150,7 @@ article header .meta {
   font-size: 0.8em;
   color: #444;
   text-transform: uppercase;
-  text-align: center;
+  text-align: center; 
   margin: 0; }
 
 article.hentry >  h1 {
