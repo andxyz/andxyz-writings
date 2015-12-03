@@ -19,6 +19,7 @@ group :development do
   # I like github flavored markdown (gfm). redcarpet2 is kinda like that if you give it a bunch of settings
   # https://github.com/nono/Jekyll-plugins
   gem 'redcarpet', '~> 2.2.2'
+  gem 'github-markup'
 end
 
 gem 'sinatra', '~> 1.3.2'
