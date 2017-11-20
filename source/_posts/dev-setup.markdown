@@ -4,6 +4,3 @@
 
 - http://carpeaqua.com/2013/10/27/my-ultimate-developer-and-power-users-tool-list-for-os-x-2013-edition-/
 
-
-
-
