@@ -4,7 +4,6 @@
 
 - abstract representation of musical instument
 
-- nationalism, canada's remote beautify, via landscape, flag or beaver
+- nationalism, canada's remote beauty, via landscape, flag or beaver
 
 - a picture of west toronto rails near where I live with the up train
-
