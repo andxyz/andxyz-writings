@@ -1,2 +1,3 @@
-#!/bin/sh
-bundle exec rake clean && bundle exec rake preview
+#!/usr/local/bin/bash
+
+bundle exec jekyll clean && bundle exec jekyll serve
