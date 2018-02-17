@@ -1,4 +1,4 @@
-[andxyz.com](http://andxyz.com/)
+[andxyz.com](https://andxyz.com/)
 
 Personal website of Andrew Stevens
 
