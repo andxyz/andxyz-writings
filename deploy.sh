@@ -3,7 +3,7 @@
 set -x
 set -e
 
-git push origin andxyz 2>&1 > /dev/null
+git push private master 2>&1 > /dev/null
 echo "updated deployer@deployer.andxyz.com:andxyz-writings.git repo"
 
 git push github andxyz 2>&1 > /dev/null
