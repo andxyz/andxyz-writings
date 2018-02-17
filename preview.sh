@@ -1,3 +1,7 @@
 #!/usr/local/bin/bash
 
-bundle exec jekyll clean && bundle exec jekyll serve
+set -x
+set -e
+
+bundle exec jekyll clean
+bundle exec jekyll serve
