@@ -9,7 +9,7 @@
 .pygments-cache
 _cache
 _deploy
+_site
 public
-/source/stylesheets/screen.css
 /vendor
 /node_modules

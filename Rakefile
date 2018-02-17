@@ -8,7 +8,7 @@ ssh_user       = "wwwandxyz@writings.andxyz.com"
 ssh_port       = "22"
 document_root  = "/home/wwwandxyz/website/"
 rsync_delete   = false
-public_dir      = "public"    # compiled site directory
+compiled_site_dir = "_site"
 
 ##############
 # Deploying  #
@@ -21,5 +21,5 @@ task :deploy do
     exclude = "--exclude-from '#{File.expand_path('./rsync-exclude')}'"
   end
   puts "## Deploying website via Rsync"
-  ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
+  ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{compiled_site_dir}/ #{ssh_user}:#{document_root}")
 end

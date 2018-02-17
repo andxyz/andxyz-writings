@@ -1,8 +1,9 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 group :development do
   gem 'compass'
   gem 'jekyll'
-  gem 'jekyll-paginate'
+  gem 'jekyll-feed'
+  # gem 'jekyll-paginate'
   gem 'rake'
 end
