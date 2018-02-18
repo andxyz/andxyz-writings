@@ -41,7 +41,7 @@ For myself, old resolution lists look exactly like new ones.
 - Do more art
 - Put it online
 
-When I go off to start something new. I begin by cleaning my computer desk. The new things I start begin with cleaning.
+When I go off to start something new, I begin by cleaning my computer desk. The new things I start begin with cleaning.
 
 - Here at my computer desk
 - Here at my workshop
