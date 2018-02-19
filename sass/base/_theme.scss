@@ -51,15 +51,9 @@ $footer-link-color: $link-color;
 $footer-link-color-hover: $link-color-hover;
 
 
-/* Core theme application */
-
+/* Core */
 a {
   @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
-}
-aside.sidebar a {
-  @include link-colors($sidebar-link-color, $hover: $sidebar-link-color-hover, $focus: $sidebar-link-color-hover, $active: $sidebar-link-color-active);
-}
-a {
   @include transition(color .3s);
 }
 
