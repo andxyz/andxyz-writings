@@ -31,3 +31,14 @@ Transfer-Encoding: chunked
 </head>
 </html>
 
+
+~/code$ http get https://joshpeek.com --headers
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Connection: keep-alive
+Content-Length: 21428
+Content-Type: text/html
+Date: Sun, 18 Feb 2018 20:30:25 GMT
+ETag: "5a7f61c3-53b4"
+Last-Modified: Sat, 10 Feb 2018 21:18:59 GMT
+Server: nginx/1.6.2

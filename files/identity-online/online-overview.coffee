@@ -1,4 +1,4 @@
-"David Heinemeier Hansson" =
+"David Heinemeier Hansson 2012" =
   url: "david.heinemeierhansson.com"
   dns_hosting: ""
   file_hosting: ""
@@ -7,17 +7,16 @@
   view_source: "view-source:http://david.heinemeierhansson.com/"
   response_time_avg: "300ms"
 
-"Ryan Tomayko" =
+"Ryan Tomayko 2012" =
   url: "tomayko.com"
   dns_hosting: "http://slicehost.net"
   file_hosting: ""
   mxrecord: "google-apps"
-  framework: "sintra-esque thing, based on: awesome custom 404 page, how tomayko.com/writings/ is handled, it's rtomayko..." 
+  framework: "sintra-esque thing, based on: awesome custom 404 page, how tomayko.com/writings/ is handled, it's rtomayko..."
   view_source: "view-source:http://tomayko.com/"
   response_time_avg: "150ms"
 
-
-"Joshua Peek" =
+"Joshua Peek 2012" =
   url: "joshpeek.com"
   dns_hosting: "https://dnsimple.com"
   file_hosting: "pages.github.com on rackspace"
