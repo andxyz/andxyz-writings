@@ -331,6 +331,9 @@ template {
 [hidden] {
   display: none; }
 
+/* To use the light Solarized highlighting theme uncomment the following line */
+/* If you want to tweak the Solarized colors you can do that here */
+/* Non highlighted code colors */
 /* non highlighted code colors */
 /* Navigation */
 /* Sidebar colors */
@@ -512,20 +515,20 @@ blockquote {
   font-size: 1.2em;
   line-height: 1.5em;
   padding-left: 1em;
-  border-left: 4px solid rgba(170, 170, 170, 0.5); }
+  border-left: 4px solid rgba(68, 68, 68, 0.5); }
   /* line 116, sass/base/_typography.scss */
   blockquote cite {
     font-style: italic; }
     /* line 118, sass/base/_typography.scss */
     blockquote cite a {
-      color: #aaa !important;
+      color: #444 !important;
       word-wrap: break-word; }
     /* line 119, sass/base/_typography.scss */
     blockquote cite:before {
       content: '\2014';
       padding-right: .3em;
       padding-left: .3em;
-      color: #aaa; }
+      color: #444; }
   @media only screen and (min-width: 992px) {
     /* line 108, sass/base/_typography.scss */
     blockquote {
@@ -571,119 +574,120 @@ blockquote {
   display: table;
   clear: both; }
 
-/* line 19, sass/base/_layout.scss */
+/* line 6, sass/base/_layout.scss */
 body {
   -webkit-text-size-adjust: none;
   max-width: 900px;
   position: relative;
-  margin: 0 auto; }
-  /* line 24, sass/base/_layout.scss */
+  margin: 0 auto;
+  padding: 0 32px; }
+  /* line 13, sass/base/_layout.scss */
   body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
     padding-left: 18px;
     padding-right: 18px; }
     @media only screen and (min-width: 480px) {
-      /* line 24, sass/base/_layout.scss */
+      /* line 13, sass/base/_layout.scss */
       body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 25px;
         padding-right: 25px; } }
     @media only screen and (min-width: 768px) {
-      /* line 24, sass/base/_layout.scss */
+      /* line 13, sass/base/_layout.scss */
       body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 35px;
         padding-right: 35px; } }
     @media only screen and (min-width: 992px) {
-      /* line 24, sass/base/_layout.scss */
+      /* line 13, sass/base/_layout.scss */
       body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 55px;
         padding-right: 55px; } }
-  /* line 41, sass/base/_layout.scss */
+  /* line 30, sass/base/_layout.scss */
   body div.pagination {
     margin-left: 18px;
     margin-right: 18px; }
     @media only screen and (min-width: 480px) {
-      /* line 41, sass/base/_layout.scss */
+      /* line 30, sass/base/_layout.scss */
       body div.pagination {
         margin-left: 25px;
         margin-right: 25px; } }
     @media only screen and (min-width: 768px) {
-      /* line 41, sass/base/_layout.scss */
+      /* line 30, sass/base/_layout.scss */
       body div.pagination {
         margin-left: 35px;
         margin-right: 35px; } }
     @media only screen and (min-width: 992px) {
-      /* line 41, sass/base/_layout.scss */
+      /* line 30, sass/base/_layout.scss */
       body div.pagination {
         margin-left: 55px;
         margin-right: 55px; } }
-  /* line 58, sass/base/_layout.scss */
+  /* line 47, sass/base/_layout.scss */
   body > header {
     font-size: 1em;
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
 
-/* line 67, sass/base/_layout.scss */
+/* line 56, sass/base/_layout.scss */
 #content > div, #content > article {
   width: 100%; }
 
-/* line 71, sass/base/_layout.scss */
+/* line 60, sass/base/_layout.scss */
 .flex-content, article img, article video, article .flash-video {
   max-width: 100%;
   height: auto; }
 
-/* line 74, sass/base/_layout.scss */
+/* line 63, sass/base/_layout.scss */
 .basic-alignment.left, article img.left, article video.left, article .left.flash-video {
   float: left;
   margin-right: 1.5em; }
 
-/* line 75, sass/base/_layout.scss */
+/* line 64, sass/base/_layout.scss */
 .basic-alignment.right, article img.right, article video.right, article .right.flash-video {
   float: right;
   margin-left: 1.5em; }
 
-/* line 76, sass/base/_layout.scss */
+/* line 65, sass/base/_layout.scss */
 .basic-alignment.center, article img.center, article video.center, article .center.flash-video {
   display: block;
   margin: 0 auto 1.5em; }
 
-/* line 77, sass/base/_layout.scss */
+/* line 66, sass/base/_layout.scss */
 .basic-alignment.left, article img.left, article video.left, article .left.flash-video, .basic-alignment.right, article img.right, article video.right, article .right.flash-video {
   margin-bottom: .8em; }
 
 @media only screen and (min-width: 550px) {
-  /* line 81, sass/base/_layout.scss */
+  /* line 70, sass/base/_layout.scss */
   body > header {
     font-size: 1em; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 87, sass/base/_layout.scss */
+  /* line 76, sass/base/_layout.scss */
   body {
     -webkit-text-size-adjust: auto; }
-  /* line 88, sass/base/_layout.scss */
+  /* line 77, sass/base/_layout.scss */
   body > header {
     font-size: 1.2em; }
-  /* line 89, sass/base/_layout.scss */
+  /* line 78, sass/base/_layout.scss */
   #main {
     padding: 0;
     margin: 0 auto; }
-  /* line 93, sass/base/_layout.scss */
+  /* line 82, sass/base/_layout.scss */
   #content {
     overflow: visible;
     position: relative; }
-    /* line 96, sass/base/_layout.scss */
+    /* line 85, sass/base/_layout.scss */
     .no-sidebar #content {
       margin-right: 0;
       border-right: 0; }
-    /* line 97, sass/base/_layout.scss */
+    /* line 86, sass/base/_layout.scss */
     #content > div, #content > article {
       padding-top: 17.5px;
       padding-bottom: 17.5px;
       float: left; } }
 
 @media only screen and (min-width: 992px) {
-  /* line 106, sass/base/_layout.scss */
+  /* line 95, sass/base/_layout.scss */
   body > header {
     font-size: 1.3em; }
-  /* line 109, sass/base/_layout.scss */
+  /* line 98, sass/base/_layout.scss */
   #content > div, #content > article {
     padding-top: 27.5px;
     padding-bottom: 27.5px; } }
@@ -727,7 +731,7 @@ article {
     /* line 14, sass/partials/_blog.scss */
     article header p {
       font-size: .9em;
-      color: #aaa;
+      color: #444;
       margin: 0; }
       /* line 18, sass/partials/_blog.scss */
       article header p.meta {
@@ -824,7 +828,7 @@ article {
     padding: .4em .8em;
     margin-right: .5em;
     text-decoration: none;
-    color: #666666;
+    color: #333333;
     transition-property: background-color;
     transition-duration: .5s; }
     /* line 102, sass/partials/_blog.scss */
@@ -853,7 +857,7 @@ article {
   /* line 126, sass/partials/_blog.scss */
   #content div.pagination a {
     text-decoration: none;
-    color: #aaa; }
+    color: #444; }
     /* line 129, sass/partials/_blog.scss */
     #content div.pagination a.prev {
       position: absolute;
@@ -1308,7 +1312,7 @@ figure.code {
 
 /* line 4, sass/partials/_archive.scss */
 #blog-archives {
-  color: #aaa; }
+  color: #444; }
   /* line 5, sass/partials/_archive.scss */
   #blog-archives article {
     padding: 1em 0 1em;
@@ -1341,7 +1345,7 @@ figure.code {
         color: #0181eb; }
   /* line 26, sass/partials/_archive.scss */
   #blog-archives a.category, #blog-archives time {
-    color: #aaa; }
+    color: #444; }
   /* line 31, sass/partials/_archive.scss */
   #blog-archives .entry-content {
     display: none; }
@@ -1427,40 +1431,6 @@ body > footer {
   body > footer p:last-child {
     margin-bottom: 0; }
 
-/* Core */
-/* line 23, sass/screen.scss */
-* {
-  box-sizing: border-box; }
-
-/* line 27, sass/screen.scss */
-a {
-  color: #1863a1;
-  transition-property: color;
-  transition-duration: .3s; }
-  /* line 5, sass/custom/_andxyz-mixins.scss */
-  a:visited {
-    color: #751590; }
-  /* line 10, sass/custom/_andxyz-mixins.scss */
-  a:focus {
-    color: #0181eb; }
-  /* line 15, sass/custom/_andxyz-mixins.scss */
-  a:hover {
-    color: #0181eb; }
-  /* line 20, sass/custom/_andxyz-mixins.scss */
-  a:active {
-    color: #01579f; }
-
-/* line 33, sass/screen.scss */
-html {
-  background-color: #f8f8f8;
-  background-image: url("/images/noise.png");
-  background-origin: border-box;
-  background-position: top;
-  background-repeat: repeat; }
-
-/* To use the light Solarized highlighting theme uncomment the following line */
-/* If you want to tweak the Solarized colors you can do that here */
-/* Non highlighted code colors */
 /* line 17, sass/custom/_andxyz-fonts.scss */
 sup {
   top: -1.0em; }
@@ -1854,3 +1824,34 @@ kbd.light, .light-keys kbd, .key.light, .light-keys .key {
   -moz-box-shadow: inset 0 0 1px white, inset 0 0 0.4em #c8c8c8, 0 0.1em 0 #828282, 0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
   -webkit-box-shadow: inset 0 0 1px white, inset 0 0 0.4em #c8c8c8, 0 0.1em 0 #828282, 0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
   box-shadow: inset 0 0 1px white, inset 0 0 0.4em #c8c8c8, 0 0.1em 0 #828282, 0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9); }
+
+/* Core */
+/* line 34, sass/screen.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 38, sass/screen.scss */
+a {
+  color: #1863a1;
+  transition-property: color;
+  transition-duration: .3s; }
+  /* line 5, sass/custom/_andxyz-mixins.scss */
+  a:visited {
+    color: #751590; }
+  /* line 10, sass/custom/_andxyz-mixins.scss */
+  a:focus {
+    color: #0181eb; }
+  /* line 15, sass/custom/_andxyz-mixins.scss */
+  a:hover {
+    color: #0181eb; }
+  /* line 20, sass/custom/_andxyz-mixins.scss */
+  a:active {
+    color: #01579f; }
+
+/* line 44, sass/screen.scss */
+html {
+  background-color: #f8f8f8;
+  background-image: url("/images/noise.png");
+  background-origin: border-box;
+  background-position: top;
+  background-repeat: repeat; }

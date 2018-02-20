@@ -4,6 +4,9 @@
 @import 'sass/thoughtbot/bourbon/bourbon';
 @import 'sass/custom/_andxyz-mixins';
 // @import 'sass/thoughtbot/neat/neat';
+@import 'custom/andxyz-octopress-configs';
+@import 'custom/andxyz-theme-configs';
+@import "custom/andxyz-color-configs";
 
 @import "base"; // old octopress stuff
 // @import "sass/base/utilities";
@@ -18,6 +21,14 @@
 // @import "partials/syntax";
 // @import "partials/archive";
 // @import "partials/footer";
+
+@import "custom/andxyz-fonts";
+
+@import "custom/andxyz-theme-overrides";
+@import "custom/andxyz-mobile";
+@import "custom/andxyz-icon-font";
+@import "custom/andxyz-search";
+@import "custom/andxyz-keys";
 
 /* Core */
 * {
@@ -37,13 +48,3 @@ html {
   background-position: top;
   background-repeat: repeat;
 }
-
-@import "custom/andxyz-colors";
-@import "custom/andxyz-layout";
-@import "custom/andxyz-fonts";
-
-@import "custom/andxyz-theme-overrides";
-@import "custom/andxyz-mobile";
-@import "custom/andxyz-icon-font";
-@import "custom/andxyz-search";
-@import "custom/andxyz-keys";
