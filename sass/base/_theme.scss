@@ -49,14 +49,3 @@ $footer-color: #222 !default;
 $footer-bg: #f8f8f8 !default;
 $footer-link-color: $link-color;
 $footer-link-color-hover: $link-color-hover;
-
-
-/* Core */
-a {
-  @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
-  @include transition(color .3s);
-}
-
-html {
-  background: $page-bg image-url('noise.png') top left;
-}

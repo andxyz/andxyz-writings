@@ -36,8 +36,8 @@ div.about-author {
     height: 255px;
     vertical-align: text-top;
     margin-right:   5%;
-    @include border-radius(135px);
-    @include box-shadow(0 0 10px 0px #888);
+    border-radius: 135px;
+    box-shadow: 0 0 10px 0px #888;
   }
 
   .bio-overview {
@@ -51,7 +51,8 @@ div.about-author {
     }
 
     ul {
-      margin: 0 0 0 1.5em;
+      margin: 0em;
+      padding-left: 32px;
       list-style: none;
     }
 
@@ -141,7 +142,7 @@ body{
 
 article img.plain {
   border: 0;
-  @include border-radius(0,0);
+  border-radius: 0, 0;
 }
 
 img.emoji {

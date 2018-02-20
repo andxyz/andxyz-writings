@@ -16,10 +16,7 @@
     display: none;
   }
 
-  img.logo {
-  }
-
-  img.photo {
+  img.avatar {
     max-width: 100%;
     width: auto;
     height: auto;
@@ -31,7 +28,9 @@
   }
 
   div.about-author .avatar-figure {
-    padding: 0 15px 0 5px;
+    float: none;
+    padding: 0;
+    margin: 0;
   }
 
   div.about-author img.avatar {

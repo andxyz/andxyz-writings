@@ -12,7 +12,9 @@ $header-font-size: 1em !default;
 $header-padding-top: 1.5em !default;
 $header-padding-bottom: 1.5em !default;
 
-.group { @include pie-clearfix; }
+.group {
+  @include pie-clearfix;
+}
 
 body {
   -webkit-text-size-adjust: none;
@@ -61,7 +63,7 @@ body {
 }
 
 #content {
-  overflow: hidden;
+  // overflow: hidden;
   > div, > article { width: 100%; }
 }
 

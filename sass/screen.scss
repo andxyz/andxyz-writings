@@ -1,15 +1,46 @@
-@import "compass";
-@include global-reset;
-@include reset-html5;
 
+@import "normalize";
+
+@import 'sass/thoughtbot/bourbon/bourbon';
+@import 'sass/custom/_andxyz-mixins';
+// @import 'sass/thoughtbot/neat/neat';
+
+@import "base"; // old octopress stuff
+// @import "sass/base/utilities";
+// @import "sass/base/solarized";
+// @import "sass/base/theme";
+// @import "sass/base/typography";
+// @import "sass/base/layout";
+
+@import "partials"; // old octopress stuff
+// @import "partials/header";
+// @import "partials/blog";
+// @import "partials/syntax";
+// @import "partials/archive";
+// @import "partials/footer";
+
+/* Core */
 * {
-  @include box-sizing( border-box );
+  box-sizing: border-box;
 }
+
+a {
+  @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
+  transition-property: color;
+  transition-duration: .3s;
+}
+
+html {
+  background-color: #f8f8f8;
+  background-image: url("/images/noise.png");
+  background-origin: border-box;
+  background-position: top;
+  background-repeat: repeat;
+}
+
 @import "custom/andxyz-colors";
 @import "custom/andxyz-layout";
 @import "custom/andxyz-fonts";
-@import "base";
-@import "partials";
 
 @import "custom/andxyz-theme-overrides";
 @import "custom/andxyz-mobile";
