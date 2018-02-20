@@ -6,15 +6,13 @@ tags: personal, website
 comments: true
 ---
 
-# Starting something new
-
 People.
 
 People make things.
 
 Rocks sit still, watching, and are used. Do not be a rock. Well, not all the time, at least.
 
-People write something to tell you to "Start something new." People sit down and write like Don Draper. Don Draper wrote about when he lost his job. His job to sell cigarettes. He wrote, "Why I'm Quitting Tobacco." Sort of a _goodbye_ to old employers, _hello_ to personal health. People put their writings on the wall and let us read. They do it to stir in you a will to start something new.
+People write something to tell you to "Start something new." People sit down and write like Don Draper. If you do not know Don Draper, he is fictional. Don Draper presents himself as a man of self imposed importance, someone with self respect. Don Draper wrote when he lost his job. His job to sell cigarettes. He wrote, "Why I'm Quitting Tobacco." Sort of a _goodbye_ to old clients, _hello_ to personal health. People put their writings on the wall and let us read. They do it to stir in you a will to start something new.
 
 I will do it now.
 
@@ -27,13 +25,13 @@ Not because you are a control freak who likes to be possessive. No one likes tho
 You create. Start it. Build it.
 
 Why is it that,
-When I go to start something new, I think of the new year. I think of _new_ _years_ _resolutions_. I sit and think about how I am doing. How am I doing, since the last time I sat and thought about it? Since the last time, I did _this_. Then suddenly I go off. I go off to look at:
+when I go to start something new, I think of the new year. I think of _new_ _years_ _resolutions_. I sit and think about how I am doing. How am I doing. How, since the last time I sat and thought about it? Since the last time. I did _this_. Then suddenly my mind wanders, I go off. I go off to look at:
 
 - old resolution lists
 - old blog posts (about making something, about that new start, new job, new project, new _X_)
 - and to listen to an old speech, a speech about a dream
 
-As I sit to think, reading my resolution lists, I realize something. They point back at me. They point at who I am. My due north. They point to what I have wanted from the world for a long time.
+As I sit to think. As I set to listen. Reading back to myself resolution lists, I realize something. They point back at me. They point at who I am. My due north. They point to what I have wanted from the world for a long time.
 
 For myself, old resolution lists look exactly like new ones.
 
@@ -41,10 +39,7 @@ For myself, old resolution lists look exactly like new ones.
 - Do more art
 - Put it online
 
-When I go off to start something new, I begin by cleaning my computer desk. The new things I start begin with cleaning.
-
-- Here at my computer desk
-- Here at my workshop
+When I go off to start something new, I begin by cleaning my computer desk. The new things I start begin with cleaning. Here at my computer desk. Here at my workshop.
 
 I have recently visited a friend's workshop; a friend in Toronto. I live in West Toronto. They live in East Toronto. Aside from them being a sort of Nega-Toronto-Me (that I will have to fight one day), the visit to the east made me realize something. The east brought me wisdom. Maybe, just maybe, I should not destroy them.
 
@@ -67,11 +62,11 @@ I hate sentences that just flip the verb or noun, or flip the sentence to a nega
 
 I made that one up. I hate how that sentence pretends to present meaning. How it forces the brain to try to extract a lesson.
 
-Another thing thing that bothers me, is when I learn the same lesson again and again. Like when I get angry at someone because I am hungry. I must remember to eat before I get upset.
+Another thing thing that bothers me, is when I learn the same lesson again and again. For example, when I get angry at someone because I am hungry. I must remember to eat before I get upset.
 
 The following sentence has meaning, I will live it the rest of my life:
 
->> "The things you own, end up owning you."
+> "The things you own, end up owning you."
 
 I have learned this lesson a million times, I will live it a million more.
 
@@ -83,6 +78,9 @@ My actions tell me something. I want a place to work. I will create.
 
 Put yourself on hold too long and the world passes you by. You can live, right now.
 
+{%
+
+include post/footnote.html content="
 footnotes:
 
 - Here is a picture of my computer desk.
@@ -95,6 +93,9 @@ footnotes:
   ![]()
 
 - I encourage you to read http://randsinrepose.com/archives/the-builders-high/
-- A link to Don Drapers "Why I'm Quitting Tobacco" video
-- My brother wrote a play about east and west Toronto called ""
+- A link to Don Drapers \"Why I am Quitting Tobacco\" video
+- My brother wrote a play about east and west Toronto called ''
 - If you have noticed everything some of the things I say have more than one meaning, it is how I live. With a Darkness, with a double meaning. The [Jekyll](https://jekyllrb.com/docs/sites/) lives with the [Hyde](https://maps.google.ca/maps?q=hyde+park+toronto)
+"
+
+%}
