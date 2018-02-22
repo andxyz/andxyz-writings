@@ -18,18 +18,17 @@ I will do it now.
 
 Please, for your health. Start something new. Put the "I will get to that later" off the table.
 
-Reach for the thing you want. Pick up the one you love. Create something of love.
+Reach for the thing you want. Pick up the one you love. Create something.
 
 Not because you are a control freak who likes to be possessive. No one likes those people. Do it because you are creative.
 
 You create. Start it. Build it.
 
-Why is it that,
-when I go to start something new, I think of the new year. I think of _new_ _years_ _resolutions_. I sit and think about how I am doing. How am I doing. How, since the last time I sat and thought about it? Since the last time. I did _this_. Then suddenly my mind wanders, I go off. I go off to look at:
+Why is it that, when I go to start something new, I think of the new year. I think of _new_ _years_ _resolutions_. I sit and think about how I am doing. How am I doing. How have I changed, since the last time I sat and thought about life? What have changed in me since the last time I did _this_. Then suddenly my mind wanders, I go off. I go off to look at:
 
 - old resolution lists
 - old blog posts (about making something, about that new start, new job, new project, new _X_)
-- and to listen to an old speech, a speech about a dream
+- and I go off to listen to an old speech, a speech about a dream
 
 As I sit to think. As I set to listen. Reading back to myself resolution lists, I realize something. They point back at me. They point at who I am. My due north. They point to what I have wanted from the world for a long time.
 
@@ -43,7 +42,7 @@ When I go off to start something new, I begin by cleaning my computer desk. The 
 
 I have recently visited a friend's workshop; a friend in Toronto. I live in West Toronto. They live in East Toronto. Aside from them being a sort of Nega-Toronto-Me (that I will have to fight one day), the visit to the east made me realize something. The east brought me wisdom. Maybe, just maybe, I should not destroy them.
 
-I learned, I do not maintain my workshop at home.
+I gained some wisdom, I do not maintain my workshop at home.
 
 I placed my computer desk to be in the center of my home. So that I, as a person, would not always be hidden away. Tucked away deep within _my_ _lab_.
 
@@ -56,11 +55,11 @@ I have not one clean desk. I do not maintain the desk to be clean. I put things 
 
 Lately I have been going to coffee shops to work. They have a table, a desk with nothing on it. A large glass window with sunlight from the street. The coffee shop has none of my "get to that later" things lying around. No past projects. No property of mine. No unread mail lazing about.
 
-I hate sentences that just flip the verb or noun, or flip the sentence to a negative. I will give an example:
+I dislike sentences that flip the verb or noun, or flip the sentence to a negative. I will give an example:
 
 "I say what I mean, but I don't mean what I say"
 
-I made that one up. I hate how that sentence pretends to present meaning. How it forces the brain to try to extract a lesson.
+I made that one up. It disturbs me how that sentence pretends to present meaning. How it forces the brain to try to extract a lesson.
 
 Another thing thing that bothers me, is when I learn the same lesson again and again. For example, when I get angry at someone because I am hungry. I must remember to eat before I get upset.
 
@@ -72,7 +71,7 @@ I have learned this lesson a million times, I will live it a million more.
 
 I have started something by writing this piece.
 
-First I cleaned my server. I setup my server to serve _HTTPS_ content. I upgraded software on the server. I cleaned old files off the server. I setup a new computer. I cleaned old configs for my new computer.
+First I cleaned my server. I upgraded software on the server. I cleaned old files off the server. I setup my server to serve _HTTPS_ content. I setup a new computer. I cleaned old configs for my new computer.
 
 My actions tell me something. I want a place to work. I will create.
 
