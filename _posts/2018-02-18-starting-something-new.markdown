@@ -84,14 +84,11 @@ include post/footnote.html content="
 footnotes:
 
 - Here is a picture of my computer desk.
-  ![]()
-
+  - ![]()
 - Here is a picture of my workshop desk.
-  ![]()
-
+  - ![]()
 - Here is a picture of my deck where I take things to work on because my workshop (in my maintaniance room which is small and crowded)
-  ![]()
-
+  - ![]()
 - I encourage you to read http://randsinrepose.com/archives/the-builders-high/
 - A link to Don Drapers \"Why I am Quitting Tobacco\" video
 - My brother wrote a play about east and west Toronto called ''

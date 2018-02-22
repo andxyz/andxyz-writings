@@ -177,5 +177,10 @@ article.hentry > h3 {
 
 article.hentry .footnotes {
   font-size: 70%;
+
+  ul {
+    -webkit-padding-start: 20px;
+    margin-left: 0px;
+  }
 }
 

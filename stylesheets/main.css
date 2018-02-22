@@ -642,6 +642,8 @@ article.hentry > h3 { font-size: 15px; }
 
 article.hentry .footnotes { font-size: 70%; }
 
+article.hentry .footnotes ul { -webkit-padding-start: 20px; margin-left: 0px; }
+
 @media screen and (max-width: 520px) { body { margin: 0 auto; width: 100%; padding: 10px 20px; word-wrap: break-word; }
   pre { font-size: 14px; line-height: 16px; }
   body #content #blog-archives time { display: none; }
