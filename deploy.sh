@@ -4,7 +4,7 @@ set -x
 set -e
 
 git push private master 2>&1 > /dev/null
-echo "updated deployer@deployer.andxyz.com:andxyz-writings.git repo"
+echo "updated deployer@deploy.andxyz.com:andxyz-writings.git repo"
 
 git push origin master 2>&1 > /dev/null
 echo "updated git@github.com-andxyz:andxyz/andxyz-writings.git repo"
